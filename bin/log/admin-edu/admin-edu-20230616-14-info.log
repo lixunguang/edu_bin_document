@@ -1,0 +1,6 @@
+2023/06/16 14:00:54 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1686895254568676600] checkAuth:%!p(string=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3MzMzMDMsImlzcyI6IjE2ODY3Mjk3MDMifQ.BsnNpymAL1Sl0LZtAjTZnL9oEHSAPy2Si7Kqzs4hpII)
+2023/06/16 14:02:38 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1686895358532737900] [adminLogin Controller] start ...
+2023/06/16 14:02:38 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1686895358532737900] ---->input param: {Password:admin1 Name:admin1 Dept: IsTeacher:false}
+2023/06/16 14:02:38 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1686895358532737900] ---->out param: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY5MjA1NTgsImlzcyI6IjE2ODY4OTUzNTgifQ.gcCycUtDOJUTQd04WVt2CQ8EqxZjkOIjk2O7C6hySw4,登录成功
+2023/06/16 14:02:38 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1686895358547180800] checkAuth:%!p(string=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY5MjA1NTgsImlzcyI6IjE2ODY4OTUzNTgifQ.gcCycUtDOJUTQd04WVt2CQ8EqxZjkOIjk2O7C6hySw4)
+2023/06/16 14:02:38 admin_perm_controller.go:164: [32m[INFO][0m [trace_id=1686895358547180800] [admin GetUser Controller] start ...

@@ -1,0 +1,1 @@
+2023/06/21 15:01:59 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687330919066066600] [method] GetResourceContentFromID fail,url can not found

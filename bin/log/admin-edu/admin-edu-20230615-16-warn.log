@@ -1,0 +1,1 @@
+2023/06/15 16:17:33 admin_dao.go:103: [33m[WARN][0m [trace_id=1686817045874049500] [userDao.CheckUser] fail,err=record not found, loginId=%!d(string=admin3)

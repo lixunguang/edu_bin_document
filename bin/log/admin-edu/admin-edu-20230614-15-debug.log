@@ -1,0 +1,35 @@
+2023/06/14 15:00:00 admin_perm_service.go:51: [36m[DEBUG][0m newTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2MDAsImlzcyI6IjE2ODY3MjYwMDAifQ.jSi5XPnYRb9uEHOZZ6dT1xN9qbnGoB7S4-_Ea-30Gto
+2023/06/14 15:00:00 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2MDAsImlzcyI6IjE2ODY3MjYwMDAifQ.jSi5XPnYRb9uEHOZZ6dT1xN9qbnGoB7S4-_Ea-30Gto,&{10000 %!d(string=登录成功)}
+2023/06/14 15:00:09 admin_perm_service.go:44: [36m[DEBUG][0m oldTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2MDAsImlzcyI6IjE2ODY3MjYwMDAifQ.jSi5XPnYRb9uEHOZZ6dT1xN9qbnGoB7S4-_Ea-30Gto
+2023/06/14 15:00:09 admin_perm_service.go:51: [36m[DEBUG][0m newTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2MDksImlzcyI6IjE2ODY3MjYwMDkifQ.7zeWUYwG4EzSZSX13ubdo65dm264d_9iOB3JZigw4FM
+2023/06/14 15:00:09 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2MDksImlzcyI6IjE2ODY3MjYwMDkifQ.7zeWUYwG4EzSZSX13ubdo65dm264d_9iOB3JZigw4FM,&{10002 %!d(string=登录成功：再次登录)}
+2023/06/14 15:01:19 admin_perm_service.go:51: [36m[DEBUG][0m newTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2NzksImlzcyI6IjE2ODY3MjYwNzkifQ.ZBIEVh_ameGC9PL2VmXAqKq2ck4_AQNVy7n2WaRqsZo
+2023/06/14 15:01:19 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2NzksImlzcyI6IjE2ODY3MjYwNzkifQ.ZBIEVh_ameGC9PL2VmXAqKq2ck4_AQNVy7n2WaRqsZo,&{10000 %!d(string=登录成功)}
+2023/06/14 15:01:24 admin_perm_service.go:44: [36m[DEBUG][0m oldTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2NzksImlzcyI6IjE2ODY3MjYwNzkifQ.ZBIEVh_ameGC9PL2VmXAqKq2ck4_AQNVy7n2WaRqsZo
+2023/06/14 15:01:24 admin_perm_service.go:51: [36m[DEBUG][0m newTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2ODQsImlzcyI6IjE2ODY3MjYwODQifQ.wlfIqUqNr6mVJg7Q0lSqwi74rJx0fi67_g_8fYHvwXc
+2023/06/14 15:01:24 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3Mjk2ODQsImlzcyI6IjE2ODY3MjYwODQifQ.wlfIqUqNr6mVJg7Q0lSqwi74rJx0fi67_g_8fYHvwXc,&{10002 %!d(string=登录成功：该账号已在别处登录)}
+2023/06/14 15:48:28 admin_perm_service.go:51: [36m[DEBUG][0m newTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NjczMjUwOCwiaXNzIjoiMTY4NjcyODkwOCJ9.zm28PaONOlkD0tq7YeduLYCjW0G9NtVnng9Sufv-dII
+2023/06/14 15:48:28 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NjczMjUwOCwiaXNzIjoiMTY4NjcyODkwOCJ9.zm28PaONOlkD0tq7YeduLYCjW0G9NtVnng9Sufv-dII,&{10000 %!d(string=登录成功)}
+2023/06/14 15:51:19 admin_perm_service.go:51: [36m[DEBUG][0m newTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3MzI2NzksImlzcyI6IjE2ODY3MjkwNzkifQ.LcpJXJPIqJUdqTB0QmIJ2i-A3pmvGeNtd8nr6HdH1p4
+2023/06/14 15:51:19 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY3MzI2NzksImlzcyI6IjE2ODY3MjkwNzkifQ.LcpJXJPIqJUdqTB0QmIJ2i-A3pmvGeNtd8nr6HdH1p4,&{10000 %!d(string=登录成功)}
+2023/06/14 15:52:05 admin_perm_service.go:44: [36m[DEBUG][0m oldTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NjczMjUwOCwiaXNzIjoiMTY4NjcyODkwOCJ9.zm28PaONOlkD0tq7YeduLYCjW0G9NtVnng9Sufv-dII
+2023/06/14 15:52:05 admin_perm_service.go:51: [36m[DEBUG][0m newTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NjczMjcyNSwiaXNzIjoiMTY4NjcyOTEyNSJ9.RNRb9xtYGntitGzvO71OhaFbuYFYwjXjYARYsugCeHU
+2023/06/14 15:52:05 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NjczMjcyNSwiaXNzIjoiMTY4NjcyOTEyNSJ9.RNRb9xtYGntitGzvO71OhaFbuYFYwjXjYARYsugCeHU,&{10002 %!d(string=登录成功：该账号已在别处登录)}
+2023/06/14 15:53:19 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:53:34 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:56:55 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:57:07 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:57:29 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:02 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:05 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:06 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:06 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:07 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:07 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:07 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:07 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:07 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:31 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:58:35 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:59:11 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}
+2023/06/14 15:59:21 admin_perm_service.go:68: [36m[DEBUG][0m tokenStr:,&{10004 %!d(string=用户验证通过)}

@@ -1,0 +1,2 @@
+2023/06/21 11:12:37 admin_perm_service.go:73: [36m[DEBUG][0m eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczMzg3MjYsImlzcyI6IjE2ODczMTM1MjYifQ.JqUCMCvqzcvuwdLRhb3A8Fv02qY10wNxq1XfvvBnCIE
+2023/06/21 11:12:37 admin_perm_service.go:92: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNDIzNTcsImlzcyI6IjE2ODczMTcxNTcifQ.O_g71rk5STPoG_CFrVHfcue7PYHb85fht7_MjzNB5RE,&{10002 %!d(string=登录成功：该账号已在别处登录)}

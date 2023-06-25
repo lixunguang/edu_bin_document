@@ -1,0 +1,1 @@
+2023/06/21 11:05:35 course_service.go:38: [31m[ERROR][0m [trace_id=1687316735779824500-y32SVB] [method] GetResourceContentFromID fail,url can not found

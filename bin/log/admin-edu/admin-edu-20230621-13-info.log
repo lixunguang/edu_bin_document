@@ -1,0 +1,98 @@
+2023/06/21 13:56:14 admin_perm_controller.go:164: [32m[INFO][0m [trace_id=1687326969950753700] [GetUser Controller] start***
+2023/06/21 13:56:14 admin_perm_controller.go:207: [32m[INFO][0m [trace_id=1687326969950753700] [GetUser Controller] end***  result:  res=[{BaseModel:{ID:1 CreatedAt:2023-06-07 09:49:27 +0800 CST UpdatedAt:2023-06-07 09:49:27 +0800 CST} LoginID:0 Name:admin1 Password:admin1 Role:15 PhoneNumber: CreatorID:0 IsDeleted:0}],err=<nil>
+2023/06/21 13:56:18 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687326975971142300] [Login Controller] start***
+2023/06/21 13:56:18 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687326975971142300] [Login Controller] input param: {Password:admin1 Name:admin1 Dept: IsTeacher:false}
+2023/06/21 13:56:20 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1687326975971142300] [Login Controller] end***  result:  res=登录成功,token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 13:56:25 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687326985548299800] [CourseAll Controller] start***
+2023/06/21 13:56:25 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687326985548299800] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:57:05 admin_course_edit_controller.go:95: [32m[INFO][0m [trace_id=1687327025553878600] [CourseAdd Controller] start***
+2023/06/21 13:57:05 admin_course_edit_controller.go:104: [32m[INFO][0m [trace_id=1687327025553878600] [CourseAdd Controller] input param: {Title:仿真课程2 Desc:仿真课程2 AuthorID:1 PictureID:0 VedioID:0}
+2023/06/21 13:57:05 admin_course_edit_controller.go:142: [32m[INFO][0m [trace_id=1687327025553878600] [CourseAdd Controller] end***  result:  res=103,err=<nil>
+2023/06/21 13:57:05 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687327025567030000] [CourseAll Controller] start***
+2023/06/21 13:57:05 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687327025567030000] [CourseAll Controller] start***
+2023/06/21 13:57:05 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687327025567030000] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:57:05 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687327025567030000] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:57:09 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687327029467504100] [Course Controller] start***
+2023/06/21 13:57:09 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687327029467504100] [Course Controller] input param: {ID:103}
+2023/06/21 13:57:09 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687327029467504100] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程2 Author:[] PictureUrl: PictureID:0 PictureName: VedioUrl: VedioID:0 VedioName:},err=<nil>
+2023/06/21 13:57:14 admin_course_edit_controller.go:228: [32m[INFO][0m [trace_id=1687327034497583800] [CourseUpdate Controller] start***
+2023/06/21 13:57:14 admin_course_edit_controller.go:237: [32m[INFO][0m [trace_id=1687327034497583800] [CourseUpdate Controller] input param: {CourseID:103 Title:仿真课程2 Desc:仿真课程221 AuthorID:1 PictureID:0 VedioID:0}
+2023/06/21 13:57:14 admin_course_edit_controller.go:251: [32m[INFO][0m [trace_id=1687327034497583800] [CourseUpdate Controller] end***  result:  id=103,err=<nil>
+2023/06/21 13:57:14 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687327034518264700] [CourseAll Controller] start***
+2023/06/21 13:57:14 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687327034518264700] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:57:16 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687327036506824000] [Course Controller] start***
+2023/06/21 13:57:16 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687327036506824000] [Course Controller] input param: {ID:103}
+2023/06/21 13:57:16 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687327036506824000] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程221 Author:[] PictureUrl: PictureID:0 PictureName: VedioUrl: VedioID:0 VedioName:},err=<nil>
+2023/06/21 13:58:05 upload_file_controller.go:19: [32m[INFO][0m [trace_id=1687327055578183500] [UploadFiles Controller] start***
+2023/06/21 13:58:05 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687327085664085200] [Course Controller] start***
+2023/06/21 13:58:05 admin_course_edit_controller.go:228: [32m[INFO][0m [trace_id=1687327085664085200] [CourseUpdate Controller] start***
+2023/06/21 13:58:05 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687327085664085200] [Course Controller] start***
+2023/06/21 13:58:05 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687327085664085200] [Course Controller] input param: {ID:103}
+2023/06/21 13:58:05 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687327085664085200] [Course Controller] input param: {ID:103}
+2023/06/21 13:58:05 admin_course_edit_controller.go:237: [32m[INFO][0m [trace_id=1687327085664085200] [CourseUpdate Controller] input param: {CourseID:103 Title:仿真课程2 Desc:仿真课程22222 AuthorID:1 PictureID:0 VedioID:0}
+2023/06/21 13:58:05 admin_course_edit_controller.go:228: [32m[INFO][0m [trace_id=1687327085664085200] [CourseUpdate Controller] start***
+2023/06/21 13:58:05 admin_course_edit_controller.go:237: [32m[INFO][0m [trace_id=1687327085664085200] [CourseUpdate Controller] input param: {CourseID:103 Title:仿真课程2 Desc:仿真课程221 AuthorID:1 PictureID:0 VedioID:0}
+2023/06/21 13:58:05 upload_file_service.go:134: [32m[INFO][0m [trace_id=1687327055578183500] [service.UploadMultiFiles] form.File=map[file:[0xc00050e0f0]], form=&{Value:map[] File:map[file:[0xc00050e0f0]]}
+2023/06/21 13:58:05 upload_file_controller.go:28: [32m[INFO][0m [trace_id=1687327055578183500] [AddUser Controller] end***  result:  res=[{Url:n1.jpg ID:558 FullUrl:http://127.0.0.1:8050/uploads/202306211358056647391008b9b52.jpg}],err=<nil>
+2023/06/21 13:58:05 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687327085664085200] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程221 Author:[] PictureUrl: PictureID:0 PictureName: VedioUrl: VedioID:0 VedioName:},err=<nil>
+2023/06/21 13:58:05 admin_course_edit_controller.go:251: [32m[INFO][0m [trace_id=1687327085664085200] [CourseUpdate Controller] end***  result:  id=103,err=<nil>
+2023/06/21 13:58:05 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687327085664085200] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程22222 Author:[] PictureUrl: PictureID:0 PictureName: VedioUrl: VedioID:0 VedioName:},err=<nil>
+2023/06/21 13:58:05 admin_course_edit_controller.go:251: [32m[INFO][0m [trace_id=1687327085664085200] [CourseUpdate Controller] end***  result:  id=103,err=<nil>
+2023/06/21 13:58:05 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687327085692807500] [CourseAll Controller] start***
+2023/06/21 13:58:05 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687327085698556000] [CourseAll Controller] start***
+2023/06/21 13:58:05 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687327085692807500] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:58:05 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687327085698556000] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:58:11 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687327091744904700] [Course Controller] start***
+2023/06/21 13:58:11 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687327091744904700] [Course Controller] input param: {ID:103}
+2023/06/21 13:58:11 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687327091744904700] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程221 Author:[] PictureUrl: PictureID:0 PictureName: VedioUrl: VedioID:0 VedioName:},err=<nil>
+2023/06/21 13:58:15 upload_file_controller.go:19: [32m[INFO][0m [trace_id=1687327095445200800] [UploadFiles Controller] start***
+2023/06/21 13:58:15 upload_file_service.go:134: [32m[INFO][0m [trace_id=1687327095445200800] [service.UploadMultiFiles] form.File=map[file:[0xc00050eaa0]], form=&{Value:map[] File:map[file:[0xc00050eaa0]]}
+2023/06/21 13:58:15 upload_file_controller.go:28: [32m[INFO][0m [trace_id=1687327095445200800] [AddUser Controller] end***  result:  res=[{Url:n1.jpg ID:559 FullUrl:http://127.0.0.1:8050/uploads/202306211358154469340008b9b52.jpg}],err=<nil>
+2023/06/21 13:58:17 admin_course_edit_controller.go:228: [32m[INFO][0m [trace_id=1687327097049282800] [CourseUpdate Controller] start***
+2023/06/21 13:58:17 admin_course_edit_controller.go:237: [32m[INFO][0m [trace_id=1687327097049282800] [CourseUpdate Controller] input param: {CourseID:103 Title:仿真课程2 Desc:仿真课程221 AuthorID:1 PictureID:559 VedioID:0}
+2023/06/21 13:58:17 admin_course_edit_controller.go:251: [32m[INFO][0m [trace_id=1687327097049282800] [CourseUpdate Controller] end***  result:  id=103,err=<nil>
+2023/06/21 13:58:17 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687327097067311400] [CourseAll Controller] start***
+2023/06/21 13:58:17 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687327097067311400] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:58:19 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687327099192450300] [Course Controller] start***
+2023/06/21 13:58:19 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687327099192450300] [Course Controller] input param: {ID:103}
+2023/06/21 13:58:19 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687327099192450300] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程221 Author:[] PictureUrl:http://127.0.0.1:8050/uploads/202306211358154469340008b9b52.jpg PictureID:559 PictureName:n1.jpg VedioUrl: VedioID:0 VedioName:},err=<nil>
+2023/06/21 13:58:21 admin_course_edit_controller.go:228: [32m[INFO][0m [trace_id=1687327101752739700] [CourseUpdate Controller] start***
+2023/06/21 13:58:21 admin_course_edit_controller.go:237: [32m[INFO][0m [trace_id=1687327101752739700] [CourseUpdate Controller] input param: {CourseID:103 Title:仿真课程2 Desc:仿真课程221 AuthorID:1 PictureID:559 VedioID:0}
+2023/06/21 13:58:21 admin_course_edit_controller.go:251: [32m[INFO][0m [trace_id=1687327101752739700] [CourseUpdate Controller] end***  result:  id=103,err=<nil>
+2023/06/21 13:58:21 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687327101766334500] [CourseAll Controller] start***
+2023/06/21 13:58:21 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687327101766334500] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:58:35 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687327115722712400] [Course Controller] start***
+2023/06/21 13:58:35 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687327115722712400] [Course Controller] input param: {ID:103}
+2023/06/21 13:58:35 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687327115722712400] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程221 Author:[] PictureUrl:http://127.0.0.1:8050/uploads/202306211358154469340008b9b52.jpg PictureID:559 PictureName:n1.jpg VedioUrl: VedioID:0 VedioName:},err=<nil>
+2023/06/21 13:59:13 upload_file_controller.go:19: [32m[INFO][0m [trace_id=1687327153084474400] [UploadFiles Controller] start***
+2023/06/21 13:59:13 upload_file_service.go:134: [32m[INFO][0m [trace_id=1687327153084474400] [service.UploadMultiFiles] form.File=map[file:[0xc0005fc140]], form=&{Value:map[] File:map[file:[0xc0005fc140]]}
+2023/06/21 13:59:13 upload_file_controller.go:28: [32m[INFO][0m [trace_id=1687327153084474400] [AddUser Controller] end***  result:  res=[{Url:video.mp4 ID:560 FullUrl:http://127.0.0.1:8050/uploads/202306211359131053157009d6672.mp4}],err=<nil>
+2023/06/21 13:59:14 admin_course_edit_controller.go:228: [32m[INFO][0m [trace_id=1687327154761596300] [CourseUpdate Controller] start***
+2023/06/21 13:59:14 admin_course_edit_controller.go:237: [32m[INFO][0m [trace_id=1687327154761596300] [CourseUpdate Controller] input param: {CourseID:103 Title:仿真课程2 Desc:仿真课程221 AuthorID:1 PictureID:559 VedioID:560}
+2023/06/21 13:59:14 admin_course_edit_controller.go:251: [32m[INFO][0m [trace_id=1687327154761596300] [CourseUpdate Controller] end***  result:  id=103,err=<nil>
+2023/06/21 13:59:14 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687327154783377500] [CourseAll Controller] start***
+2023/06/21 13:59:14 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687327154783377500] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 13:59:22 admin_course_edit_controller.go:174: [32m[INFO][0m [trace_id=1687327162602665100] [CourseLessonAll Controller] start***
+2023/06/21 13:59:22 admin_course_edit_controller.go:183: [32m[INFO][0m [trace_id=1687327162602665100] [CourseLessonAll Controller] input param: {ID:103}
+2023/06/21 13:59:22 admin_course_edit_controller.go:196: [32m[INFO][0m [trace_id=1687327162602665100] [CourseLessonAll Controller] end***  result:  res=[],err=<nil>
+2023/06/21 13:59:27 admin_course_edit_controller.go:147: [32m[INFO][0m [trace_id=1687327167506337700] [CourseLessonAdd Controller] start***
+2023/06/21 13:59:27 admin_course_edit_controller.go:156: [32m[INFO][0m [trace_id=1687327167506337700] [CourseLessonAdd Controller] input param: {CourseID:103 LessonTitle:第一节1 LessonDesc:第一节描述1}
+2023/06/21 13:59:27 admin_course_edit_controller.go:169: [32m[INFO][0m [trace_id=1687327167506337700] [CourseLessonAdd Controller] end***  result:  res={CourseId:103 LessonId:114},err=<nil>
+2023/06/21 13:59:45 admin_lesson_edit_controller.go:42: [32m[INFO][0m [trace_id=1687327185242026600] [CourseLessonUpdate Controller] start***
+2023/06/21 13:59:45 admin_lesson_edit_controller.go:51: [32m[INFO][0m [trace_id=1687327185242026600] [CourseLessonUpdate Controller] input param: {CourseID:103 LessonID:114 Title:第1节 Desc:第1节描}
+2023/06/21 13:59:45 admin_lesson_edit_controller.go:64: [32m[INFO][0m [trace_id=1687327185242026600] [CourseLessonUpdate Controller] end***  result:  res=114,err=<nil>
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:69: [32m[INFO][0m [trace_id=1687327194158837100] [LessonContent Controller] start***
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:78: [32m[INFO][0m [trace_id=1687327194158837100] [LessonContent Controller] input param: {CourseID:103 LessonID:114}
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:148: [32m[INFO][0m [trace_id=1687327194158837100] [LessonRefer Controller] start***
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:157: [32m[INFO][0m [trace_id=1687327194158837100] [LessonRefer Controller] input param: {CourseID:103 LessonID:114}
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:226: [32m[INFO][0m [trace_id=1687327194158837100] [LessonExperiment Controller] start***
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:235: [32m[INFO][0m [trace_id=1687327194158837100] [LessonExperiment Controller] input param: {CourseID:103 LessonID:114}
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:304: [32m[INFO][0m [trace_id=1687327194159341300] [LessonExperiment Controller] start***
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:313: [32m[INFO][0m [trace_id=1687327194159341300] [LessonWork Controller] input param: {CourseID:103 LessonID:114}
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:172: [32m[INFO][0m [trace_id=1687327194158837100] [LessonRefer Controller] end***  result:  res=[],err=<nil>
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:93: [32m[INFO][0m [trace_id=1687327194158837100] [LessonContent Controller] end***  result:  res=[],err=<nil>
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:250: [32m[INFO][0m [trace_id=1687327194158837100] [LessonExperiment Controller] end***  result:  res=[],err=<nil>
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:335: [32m[INFO][0m [trace_id=1687327194159341300] [LessonWork Controller] end***  result:  res=[],err=<nil>
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:389: [32m[INFO][0m [trace_id=1687327194168826000] [LessonWorkRequirement Controller] start***
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:398: [32m[INFO][0m [trace_id=1687327194168826000] [LessonWorkRequirement Controller] input param: {CourseID:103 LessonID:114}
+2023/06/21 13:59:54 admin_lesson_edit_controller.go:420: [32m[INFO][0m [trace_id=1687327194168826000] [LessonWorkRequirement Controller] end***  result:  res={LessonID:0 ResourceID:0 Desc: Title: Content: ContentType:0 Index:0},err=<nil>

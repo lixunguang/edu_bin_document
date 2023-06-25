@@ -1,0 +1,20 @@
+2023/06/19 16:51:59 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687164719696176000] [Login Controller] start***
+2023/06/19 16:51:59 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687164719696176000] [Login Controller] input param: {Password:admin Name:admin Dept: IsTeacher:false}
+2023/06/19 16:52:03 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1687164719696176000] [Login Controller] end***  result:  res=登录成功,token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NzE4OTkyMywiaXNzIjoiMTY4NzE2NDcyMyJ9.d5ZF6rSsqUlO3F7kach5pyevt6o9xXejkJdDiW6tdMU
+2023/06/19 16:52:05 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687164725225767600] [Login Controller] start***
+2023/06/19 16:52:05 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687164725225767600] [Login Controller] input param: {Password:admin Name:admin Dept: IsTeacher:false}
+2023/06/19 16:52:07 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1687164725225767600] [Login Controller] end***  result:  res=登录成功：该账号已在别处登录,token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NzE4OTkyNywiaXNzIjoiMTY4NzE2NDcyNyJ9.fFlWpq0rcQgtRCRrYjU1W94BUkDmDk8Iy5mpU2xvyoM
+2023/06/19 16:53:26 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687164806727907300] [Login Controller] start***
+2023/06/19 16:53:26 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687164806727907300] [Login Controller] input param: {Password:admin Name:admin Dept: IsTeacher:false}
+2023/06/19 16:53:29 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1687164806727907300] [Login Controller] end***  result:  res=登录成功：该账号已在别处登录,token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NzE5MDAwOCwiaXNzIjoiMTY4NzE2NDgwOCJ9.esDJvKFSLWo3Pd5vwlvZ-j1SwXrMsDVw4Wt8850TZvc
+2023/06/19 16:53:43 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687164823772512500] [Login Controller] start***
+2023/06/19 16:53:43 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687164823772512500] [Login Controller] input param: {Password:admin Name:admin Dept: IsTeacher:false}
+2023/06/19 16:53:45 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1687164823772512500] [Login Controller] end***  result:  res=登录成功：该账号已在别处登录,token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NzE5MDAyNSwiaXNzIjoiMTY4NzE2NDgyNSJ9.iFY3WiCMnAp8pNFjhO1Bkcl-2qmGOrQa_LEYqOMlhI0
+2023/06/19 16:54:21 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687164861716364500] [Login Controller] start***
+2023/06/19 16:54:21 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687164861716364500] [Login Controller] input param: {Password:admin Name:admin Dept: IsTeacher:false}
+2023/06/19 16:54:23 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1687164861716364500] [Login Controller] end***  result:  res=登录成功：该账号已在别处登录,token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NzE5MDA2MywiaXNzIjoiMTY4NzE2NDg2MyJ9.5M9IHKADXJDY1l9-syW0IO9mvtcvE1LhN4VjiRdEP7g
+2023/06/19 16:58:06 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687165086484271000] [Login Controller] start***
+2023/06/19 16:58:06 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687165086484271000] [Login Controller] input param: {Password:admin Name:admin Dept: IsTeacher:false}
+2023/06/19 16:59:28 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687165168286251800] [Login Controller] start***
+2023/06/19 16:59:28 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687165168286251800] [Login Controller] input param: {Password:admin Name:admin Dept: IsTeacher:false}
+2023/06/19 16:59:34 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1687165168286251800] [Login Controller] end***  result:  res=登录成功,token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NzE5MDM3NCwiaXNzIjoiMTY4NzE2NTE3NCJ9.XnBXGt3khO-GMaMD7DDmFL7NUWVqXTNn1s6agSqEG94

@@ -1,0 +1,8 @@
+2023/06/21 10:41:26 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687315286164236100] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:41:31 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687315291220964000] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:42:20 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687315340106423300] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:42:33 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687315353100098400] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:42:41 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687315361418128600] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:45:27 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687315527539576000] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:45:55 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687315555324407400] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:48:16 admin_course_edit_service.go:72: [31m[ERROR][0m [trace_id=1687315696206410200] [method] GetResourceContentFromID fail,url can not found

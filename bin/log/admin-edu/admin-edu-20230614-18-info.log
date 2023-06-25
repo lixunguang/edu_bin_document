@@ -1,0 +1,14 @@
+2023/06/14 18:00:13 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1686736813378452300] checkAuth:%!p(string=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NjczODkzMSwiaXNzIjoiMTY4NjczNTMzMSJ9.yMQvawcumYSPSTNLpsDyty5OqF2D-98LQuXWw8vgCqI)
+2023/06/14 18:00:13 admin_course_edit_controller.go:63: [32m[INFO][0m [trace_id=1686736813378452300] [Admin Course Controller] start ...
+2023/06/14 18:00:13 admin_course_edit_controller.go:72: [32m[INFO][0m [trace_id=1686736813378452300] ---->input param: {ID:100}
+2023/06/14 18:12:26 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1686737546736146600] checkAuth:%!p(string=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NjczODkzMSwiaXNzIjoiMTY4NjczNTMzMSJ9.yMQvawcumYSPSTNLpsDyty5OqF2D-98LQuXWw8vgCqI)
+2023/06/14 18:12:40 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1686737557087423200] [adminLogin Controller] start ...
+2023/06/14 18:12:40 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1686737557087423200] ---->input param: {Password:admin Name:admin Dept: IsTeacher:false}
+2023/06/14 18:12:40 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1686737557087423200] ---->out param: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4Njc0MTE2MCwiaXNzIjoiMTY4NjczNzU2MCJ9.k2L3AoBOPxP_d27tAtc8Cee4Lp0PksXvpT3QgdIhXjM,登录成功
+2023/06/14 18:12:46 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1686737566948589600] checkAuth:%!p(string=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4NjczODkzMSwiaXNzIjoiMTY4NjczNTMzMSJ9.yMQvawcumYSPSTNLpsDyty5OqF2D-98LQuXWw8vgCqI)
+2023/06/14 18:12:59 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1686737579194015900] checkAuth:%!p(string=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4Njc0MTE2MCwiaXNzIjoiMTY4NjczNzU2MCJ9.k2L3AoBOPxP_d27tAtc8Cee4Lp0PksXvpT3QgdIhXjM)
+2023/06/14 18:13:01 admin_course_edit_controller.go:63: [32m[INFO][0m [trace_id=1686737579194015900] [Admin Course Controller] start ...
+2023/06/14 18:13:01 admin_course_edit_controller.go:72: [32m[INFO][0m [trace_id=1686737579194015900] ---->input param: {ID:100}
+2023/06/14 18:14:14 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1686737654799772400] checkAuth:%!p(string=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4Njc0MTE2MCwiaXNzIjoiMTY4NjczNzU2MCJ9.k2L3AoBOPxP_d27tAtc8Cee4Lp0PksXvpT3QgdIhXjM)
+2023/06/14 18:14:16 admin_course_edit_controller.go:63: [32m[INFO][0m [trace_id=1686737654799772400] [Admin Course Controller] start ...
+2023/06/14 18:14:16 admin_course_edit_controller.go:72: [32m[INFO][0m [trace_id=1686737654799772400] ---->input param: {ID:100}

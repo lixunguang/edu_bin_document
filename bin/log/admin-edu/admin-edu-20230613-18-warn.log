@@ -1,0 +1,2 @@
+2023/06/13 18:43:21 user_dao.go:119: [33m[WARN][0m [trace_id=1686652975098876000] [userDao.CheckUser] fail 2,err=record not found
+2023/06/13 18:57:10 user_dao.go:92: [33m[WARN][0m [trace_id=1686653805780935100] [userDao.CheckUser] fail 2,err=record not found

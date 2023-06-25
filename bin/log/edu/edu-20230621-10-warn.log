@@ -1,0 +1,97 @@
+2023/06/21 10:08:33 user_dao.go:97: [33m[WARN][0m [trace_id=1687313313174584600-Sjtg0G] [Dao.CheckUser] fail 2,err=record not found, loginId=%!d(string=abc)
+2023/06/21 10:08:36 user_dao.go:87: [33m[WARN][0m [trace_id=1687313316771366400-aYcQAW] [Dao.CheckUser] fail,err=record not found, loginId=%!d(string=abc1)
+2023/06/21 10:08:43 user_dao.go:97: [33m[WARN][0m [trace_id=1687313323981672900-dwn70C] [Dao.CheckUser] fail 2,err=record not found, loginId=%!d(string=abc)
+2023/06/21 10:08:46 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313326131281600-PN7ivu] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:08:46 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313326131281600-PN7ivu] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:10:58 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313458310808200-qelout] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:11:09 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313469507936200-m3McOt] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:11:16 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313476924900500-XOIlhX] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:11:24 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313484689986000-4Pvyqj] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:11:24 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313484689986000-4Pvyqj] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:11:28 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313488325370900-FwPxIo] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:13:05 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313585417748200-rPfIMf] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:13:25 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313605423705900-WjlOSu] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:13:25 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313605423705900-WjlOSu] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:13:29 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313609188703700-hinJWl] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:13:31 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313611861432800-3z7UNi] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:13:31 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313611861432800-3z7UNi] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:13:55 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313635326466600-tROAMI] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:14:06 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313646024250700-IfU7kt] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:14:21 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313661268881000-yMx4Wt] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:14:39 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313679709310800-dGKwh2] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:14:44 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313684427410600-jnHpXE] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:14:44 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313684427410600-jnHpXE] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:15:41 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313741773042100-7Y59aA] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:15:41 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313741773042100-7Y59aA] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:15:49 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313749499189500-qkp4fd] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:15:49 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313749499189500-qkp4fd] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:15:51 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313751959228400-6gHYfX] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:15:51 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313751959228400-6gHYfX] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:16:04 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313764669178600-J3CurW] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:16:04 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313764669178600-J3CurW] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:16:10 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313770042168700-F8epeD] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:16:11 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313771994282600-nImEmC] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:16:11 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313771994282600-nImEmC] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:16:14 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313774394057400-XIsvRJ] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:16:14 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313774394057400-XIsvRJ] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:16:35 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313795387513000-XDfDo8] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:16:35 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313795387513000-XDfDo8] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:16:38 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313798226608300-zMfPwB] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:16:38 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313798226608300-zMfPwB] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:16:39 resource_dao.go:140: [33m[WARN][0m [trace_id=1687313799992941300-Zb9QpK] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:22:12 resource_dao.go:140: [33m[WARN][0m [trace_id=1687314132460106800-QFxza6] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:22:12 resource_dao.go:140: [33m[WARN][0m [trace_id=1687314132460106800-QFxza6] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:28:07 resource_dao.go:140: [33m[WARN][0m [trace_id=1687314487683050300-KBPk4k] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:28:07 resource_dao.go:140: [33m[WARN][0m [trace_id=1687314487683050300-KBPk4k] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:30:10 resource_dao.go:140: [33m[WARN][0m [trace_id=1687314610962522300-bo6VJ5] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:30:10 resource_dao.go:140: [33m[WARN][0m [trace_id=1687314610962522300-bo6VJ5] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:40:36 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315236729536900-c5mGtl] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:40:36 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315236729536900-c5mGtl] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:41:47 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315307167244800-dCdwKe] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:41:47 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315307167244800-4RAxbm] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:41:47 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315307167244800-4RAxbm] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:44:13 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315453635490100-LbBQKD] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:44:13 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315453635490100-LbBQKD] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:44:16 resource_dao.go:196: [33m[WARN][0m [trace_id=1687315456730714800-i9ZFCA] [Dao.GetVedioInfoFromID] fail 2,err=record not found, id=0
+2023/06/21 10:48:42 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315722087178800-ooS6WR] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:48:42 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315722087178800-ooS6WR] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:48:42 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315722087756400-RvQfRc] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:48:44 resource_dao.go:196: [33m[WARN][0m [trace_id=1687315724946856300-Qy1sIT] [Dao.GetVedioInfoFromID] fail 2,err=record not found, id=0
+2023/06/21 10:49:50 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315790661485100-zCsMqv] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:49:50 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315790661485100-zCsMqv] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:49:50 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315790661485100-yPsoXC] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:50:17 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315817335872100-sAU2K1] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:50:17 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315817335872100-sAU2K1] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:50:17 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315817335872100-4d4AWp] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:50:51 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315851962235100-hWTN9W] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:50:51 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315851962235100-hWTN9W] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:50:51 resource_dao.go:140: [33m[WARN][0m [trace_id=1687315851963428000-kg6JKh] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:50:57 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1687315857369040500-bPhx7i] [dao.GetWorkCommitID] fail 2,param={LessonID:112 LoginID:222}, err=record not found
+2023/06/21 10:55:55 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1687316155698006000-0g7hmO] [dao.GetWorkCommitID] fail 2,param={LessonID:112 LoginID:222}, err=record not found
+2023/06/21 10:56:35 lesson_dao.go:61: [33m[WARN][0m [trace_id=1687316195563379400-otth32] [Dao.GetLessonTitleByID] fail 2,err=record not found
+2023/06/21 10:56:35 lesson_section_dao.go:46: [33m[WARN][0m [trace_id=1687316195563379400-yelopw] [Dao.GetLessonSectionIDByLessonIDType] fail 2,err=record not found, lessonID=1112
+2023/06/21 10:56:35 lesson_section_dao.go:46: [33m[WARN][0m [trace_id=1687316195563884100-o8CCM6] [Dao.GetLessonSectionIDByLessonIDType] fail 2,err=record not found, lessonID=1112
+2023/06/21 10:56:35 lesson_section_dao.go:46: [33m[WARN][0m [trace_id=1687316195564477700-RM5uVG] [Dao.GetLessonSectionIDByLessonIDType] fail 2,err=record not found, lessonID=1112
+2023/06/21 10:56:35 lesson_section_dao.go:46: [33m[WARN][0m [trace_id=1687316195563379400-Irgsf6] [Dao.GetLessonSectionIDByLessonIDType] fail 2,err=record not found, lessonID=1112
+2023/06/21 10:56:35 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1687316195566019200-yJFLep] [dao.GetWorkCommitID] fail 2,param={LessonID:1112 LoginID:222}, err=record not found
+2023/06/21 10:56:40 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316200061437600-1oX6TE] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:56:40 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316200061437600-1oX6TE] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:56:40 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316200061943600-cVCbY0] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:57:35 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316255311932900-a3HLfu] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:57:35 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316255311932900-a3HLfu] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:57:35 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316255312437000-TXEeJC] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:58:16 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1687316296968162900-K0FBFG] [dao.GetWorkCommitID] fail 2,param={LessonID:112 LoginID:222}, err=record not found
+2023/06/21 10:58:30 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316310147770900-rgWAKi] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:58:30 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316310147770900-rgWAKi] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:58:30 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316310148300300-L7rr4Q] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:58:33 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1687316313848014700-1u7PT9] [dao.GetWorkCommitID] fail 2,param={LessonID:112 LoginID:222}, err=record not found
+2023/06/21 10:59:20 lesson_section_dao.go:46: [33m[WARN][0m [trace_id=1687316360022708700-O6vH4q] [Dao.GetLessonSectionIDByLessonIDType] fail 2,err=record not found, lessonID=1112
+2023/06/21 10:59:20 lesson_dao.go:61: [33m[WARN][0m [trace_id=1687316360022708700-ZENydq] [Dao.GetLessonTitleByID] fail 2,err=record not found
+2023/06/21 10:59:20 lesson_section_dao.go:46: [33m[WARN][0m [trace_id=1687316360023737200-MISeKC] [Dao.GetLessonSectionIDByLessonIDType] fail 2,err=record not found, lessonID=1112
+2023/06/21 10:59:20 lesson_section_dao.go:46: [33m[WARN][0m [trace_id=1687316360023796300-zPwO9f] [Dao.GetLessonSectionIDByLessonIDType] fail 2,err=record not found, lessonID=1112
+2023/06/21 10:59:20 lesson_section_dao.go:46: [33m[WARN][0m [trace_id=1687316360024299400-Glid4T] [Dao.GetLessonSectionIDByLessonIDType] fail 2,err=record not found, lessonID=1112
+2023/06/21 10:59:20 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1687316360028679200-4tLshM] [dao.GetWorkCommitID] fail 2,param={LessonID:1112 LoginID:222}, err=record not found
+2023/06/21 10:59:23 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316363777536900-BmblAL] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/21 10:59:23 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316363777536900-BmblAL] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/21 10:59:23 resource_dao.go:140: [33m[WARN][0m [trace_id=1687316363778062200-WzZoHs] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=0
+2023/06/21 10:59:27 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1687316367483257200-vApIuj] [dao.GetWorkCommitID] fail 2,param={LessonID:112 LoginID:222}, err=record not found

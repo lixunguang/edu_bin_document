@@ -1,0 +1,49 @@
+2023/06/16 16:00:24 resource_dao.go:140: [33m[WARN][0m [trace_id=1686902424138239800] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/16 16:00:24 resource_dao.go:140: [33m[WARN][0m [trace_id=1686902424138239800] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:00:42 resource_dao.go:140: [33m[WARN][0m [trace_id=1686902442716459800] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/16 16:00:42 resource_dao.go:140: [33m[WARN][0m [trace_id=1686902442716459800] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:01:00 resource_dao.go:140: [33m[WARN][0m [trace_id=1686902460655859300] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/16 16:01:00 resource_dao.go:140: [33m[WARN][0m [trace_id=1686902460655859300] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:12:29 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903149071794800] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/16 16:12:29 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903149071794800] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:14:57 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686903297562844100] [dao.GetWorkCommitID] fail 2,param={LessonID:101 LoginID:222}, err=record not found
+2023/06/16 16:14:57 resource_dao.go:112: [33m[WARN][0m [trace_id=1686903297560710300] [Dao.GetResourceTitleByID] fail 2,err=record not found, id=10
+2023/06/16 16:14:57 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903297560710300] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=10
+2023/06/16 16:14:57 resource_dao.go:98: [33m[WARN][0m [trace_id=1686903297560710300] [Dao.GetResourceTypeByID] fail 2,err=record not found, id=10
+2023/06/16 16:15:29 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686903329198129800] [dao.GetWorkCommitID] fail 2,param={LessonID:101 LoginID:222}, err=record not found
+2023/06/16 16:15:29 resource_dao.go:112: [33m[WARN][0m [trace_id=1686903329198129800] [Dao.GetResourceTitleByID] fail 2,err=record not found, id=10
+2023/06/16 16:15:29 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903329198129800] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=10
+2023/06/16 16:15:29 resource_dao.go:98: [33m[WARN][0m [trace_id=1686903329198129800] [Dao.GetResourceTypeByID] fail 2,err=record not found, id=10
+2023/06/16 16:15:43 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686903343561308900] [dao.GetWorkCommitID] fail 2,param={LessonID:102 LoginID:222}, err=record not found
+2023/06/16 16:15:43 resource_dao.go:112: [33m[WARN][0m [trace_id=1686903343560272900] [Dao.GetResourceTitleByID] fail 2,err=record not found, id=11
+2023/06/16 16:15:43 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903343560272900] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:15:43 resource_dao.go:98: [33m[WARN][0m [trace_id=1686903343560272900] [Dao.GetResourceTypeByID] fail 2,err=record not found, id=11
+2023/06/16 16:17:02 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686903422861439700] [dao.GetWorkCommitID] fail 2,param={LessonID:102 LoginID:222}, err=record not found
+2023/06/16 16:17:02 resource_dao.go:112: [33m[WARN][0m [trace_id=1686903422860386900] [Dao.GetResourceTitleByID] fail 2,err=record not found, id=11
+2023/06/16 16:17:02 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903422860386900] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:17:02 resource_dao.go:98: [33m[WARN][0m [trace_id=1686903422860386900] [Dao.GetResourceTypeByID] fail 2,err=record not found, id=11
+2023/06/16 16:19:31 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903571745590700] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/16 16:19:31 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903571745590700] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:19:50 resource_dao.go:112: [33m[WARN][0m [trace_id=1686903590161870200] [Dao.GetResourceTitleByID] fail 2,err=record not found, id=10
+2023/06/16 16:19:50 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686903590162963700] [dao.GetWorkCommitID] fail 2,param={LessonID:101 LoginID:222}, err=record not found
+2023/06/16 16:19:50 resource_dao.go:140: [33m[WARN][0m [trace_id=1686903590161870200] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=10
+2023/06/16 16:19:50 resource_dao.go:98: [33m[WARN][0m [trace_id=1686903590161870200] [Dao.GetResourceTypeByID] fail 2,err=record not found, id=10
+2023/06/16 16:28:39 resource_dao.go:140: [33m[WARN][0m [trace_id=1686904119429477000] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/16 16:28:39 resource_dao.go:140: [33m[WARN][0m [trace_id=1686904119429477000] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:29:12 resource_dao.go:112: [33m[WARN][0m [trace_id=1686904124976883500] [Dao.GetResourceTitleByID] fail 2,err=invalid connection, id=183
+2023/06/16 16:29:12 lesson_section_resource_dao.go:32: [33m[WARN][0m [trace_id=1686904124976883500] [Dao.GetLessonSectionResourceBySectionIDType] fail 2,err=invalid connection
+2023/06/16 16:29:12 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686904124977952100] [dao.GetWorkCommitID] fail 2,param={LessonID:101 LoginID:222}, err=record not found
+2023/06/16 16:29:42 resource_dao.go:140: [33m[WARN][0m [trace_id=1686904182610812000] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/16 16:29:42 resource_dao.go:140: [33m[WARN][0m [trace_id=1686904182610812000] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:29:47 resource_dao.go:112: [33m[WARN][0m [trace_id=1686904187276277800] [Dao.GetResourceTitleByID] fail 2,err=record not found, id=10
+2023/06/16 16:29:47 resource_dao.go:140: [33m[WARN][0m [trace_id=1686904187276277800] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=10
+2023/06/16 16:29:47 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686904187277403600] [dao.GetWorkCommitID] fail 2,param={LessonID:101 LoginID:222}, err=record not found
+2023/06/16 16:29:47 resource_dao.go:98: [33m[WARN][0m [trace_id=1686904187276277800] [Dao.GetResourceTypeByID] fail 2,err=record not found, id=10
+2023/06/16 16:34:51 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686904491777561800] [dao.GetWorkCommitID] fail 2,param={LessonID:101 LoginID:222}, err=record not found
+2023/06/16 16:34:51 resource_dao.go:112: [33m[WARN][0m [trace_id=1686904491776471600] [Dao.GetResourceTitleByID] fail 2,err=record not found, id=10
+2023/06/16 16:34:51 resource_dao.go:140: [33m[WARN][0m [trace_id=1686904491776471600] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=10
+2023/06/16 16:34:51 resource_dao.go:98: [33m[WARN][0m [trace_id=1686904491776471600] [Dao.GetResourceTypeByID] fail 2,err=record not found, id=10
+2023/06/16 16:41:58 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686904918894309800] [dao.GetWorkCommitID] fail 2,param={LessonID:101 LoginID:222}, err=record not found
+2023/06/16 16:55:05 resource_dao.go:140: [33m[WARN][0m [trace_id=1686905705065336400-0mxWw5] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=54
+2023/06/16 16:55:05 resource_dao.go:140: [33m[WARN][0m [trace_id=1686905705065336400-0mxWw5] [Dao.GetResourceContentFromID] fail 2,err=record not found, id=11
+2023/06/16 16:57:51 work_commit_dao.go:32: [33m[WARN][0m [trace_id=1686905871529495500-9ztcoA] [dao.GetWorkCommitID] fail 2,param={LessonID:101 LoginID:222}, err=record not found

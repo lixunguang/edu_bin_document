@@ -1,0 +1,9 @@
+2023/06/21 10:41:47 course_service.go:38: [31m[ERROR][0m [trace_id=1687315307167244800-dCdwKe] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:48:42 course_service.go:38: [31m[ERROR][0m [trace_id=1687315722087756400-RvQfRc] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:49:50 course_service.go:38: [31m[ERROR][0m [trace_id=1687315790661485100-yPsoXC] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:50:17 course_service.go:38: [31m[ERROR][0m [trace_id=1687315817335872100-4d4AWp] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:50:51 course_service.go:38: [31m[ERROR][0m [trace_id=1687315851963428000-kg6JKh] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:56:40 course_service.go:38: [31m[ERROR][0m [trace_id=1687316200061943600-cVCbY0] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:57:35 course_service.go:38: [31m[ERROR][0m [trace_id=1687316255312437000-TXEeJC] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:58:30 course_service.go:38: [31m[ERROR][0m [trace_id=1687316310148300300-L7rr4Q] [method] GetResourceContentFromID fail,url can not found
+2023/06/21 10:59:23 course_service.go:38: [31m[ERROR][0m [trace_id=1687316363778062200-WzZoHs] [method] GetResourceContentFromID fail,url can not found

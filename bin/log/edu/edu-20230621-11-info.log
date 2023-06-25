@@ -1,0 +1,70 @@
+2023/06/21 11:05:35 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316735778250000-O4vNLU] [CheckAuth Controller] Start /edu/v1/news/banner/latest,927,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:35 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316735778250000-O4vNLU] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:35 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316735779824500-lv12t9] [CheckAuth Controller] Start /edu/v1/news/latest,283,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:35 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316735779824500-y32SVB] [CheckAuth Controller] Start /edu/v1/course/recommend,889,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:35 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316735779824500-lpGUka] [CheckAuth Controller] Start /edu/v1/learning/resource/recommend,928,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:35 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316735779824500-lv12t9] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:35 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316735779824500-y32SVB] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:35 course_controller.go:16: [32m[INFO][0m [trace_id=1687316735779824500-y32SVB] [CourseRecommend Controller] start***
+2023/06/21 11:05:35 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316735779824500-lpGUka] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:35 leaning_controller.go:98: [32m[INFO][0m [trace_id=1687316735779824500-lpGUka] [learningResourceRecommend Controller] start***
+2023/06/21 11:05:35 news_controller.go:35: [32m[INFO][0m [trace_id=1687316735779824500-lv12t9] [NewsLatest Controller] end***  result:   result:  res={News:[{NewsID:116 Title:b4 DateStr:2023-06-21 18:16:29 Content:<p>被</p> Author:admin1 PictureUrl:} {NewsID:111 Title:我的新闻 DateStr:2023-06-21 18:07:47 Content:<p><strong>我的新闻</strong></p>
+<...
+2023/06/21 11:05:35 news_controller.go:58: [32m[INFO][0m [trace_id=1687316735778250000-O4vNLU] [BannerNewsLatest Controller] end***  result:  res={PicNews:[{NewsID:111 PictureUrl:http://127.0.0.1:8060/uploads/202306211007465272294009efb5b.pcapng} {NewsID:110 PictureUrl:http://127.0.0.1:8060/uploads/20230614092713419075400f796e8.png} {NewsID:3 PictureUrl:h...
+2023/06/21 11:05:35 leaning_controller.go:108: [32m[INFO][0m [trace_id=1687316735779824500-lpGUka] [LearningResourceRecommend Controller] end***  result:  res=[{Name:但况面内气应看 Desc:elit Author:admin1 PictureUrl: LearningID:20} {Name:1111 Desc:1111111111111111 Author:222 PictureUrl: LearningID:19} {Name:数字化仿真赋能高校人才培养 Desc:...
+2023/06/21 11:05:35 course_controller.go:27: [32m[INFO][0m [trace_id=1687316735779824500-y32SVB] [CourseRecommend Controller] end***  result:  res=[{PictureUrl:http://127.0.0.1:8060/uploads/20230621104405514441500fed1da.jpg CourseName:仿真课程111 Teacher:[] CourseDesc:仿真课程223 CourseID:101} {PictureUrl: CourseName:11 Teacher:[] CourseDesc:11 Cour...
+2023/06/21 11:05:38 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316738044743800-M3aSzh] [CheckAuth Controller] Start /edu/v1/course/overview,889,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:38 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316738044743800-M3aSzh] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:38 course_controller.go:62: [32m[INFO][0m [trace_id=1687316738044743800-M3aSzh] [CourseOverview Controller] start***
+2023/06/21 11:05:38 course_controller.go:71: [32m[INFO][0m [trace_id=1687316738044743800-M3aSzh] [CourseOverview Controller] input param: {ID:101}
+2023/06/21 11:05:38 course_controller.go:84: [32m[INFO][0m [trace_id=1687316738044743800-M3aSzh] [CourseOverview Controller] end***  result:  res={Title:仿真课程111 Introduce:仿真课程223 Teacher:[] PictureUrl:http://127.0.0.1:8060/uploads/20230621104405514441500fed1da.jpg GuideVedio:{Url:http://127.0.0.1:8060/uploads/20230621104942171113700fed2e3.mp...
+2023/06/21 11:05:41 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316741146915300-ob3CFe] [CheckAuth Controller] Start /edu/v1/course/lesson/overview,889,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:41 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316741146915300-ob3CFe] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:41 lesson_controller.go:17: [32m[INFO][0m [trace_id=1687316741146915300-ob3CFe] [CourseLessonOverview Controller] start***
+2023/06/21 11:05:41 lesson_controller.go:26: [32m[INFO][0m [trace_id=1687316741146915300-ob3CFe] [CourseLessonOverview Controller] input param: {ID:112}
+2023/06/21 11:05:41 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316741146915300-De18NK] [CheckAuth Controller] Start /edu/v1/course/lesson/refer,927,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:41 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316741146915300-Szesy0] [CheckAuth Controller] Start /edu/v1/course/lesson/content,928,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:41 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316741146915300-XJYJkG] [CheckAuth Controller] Start /edu/v1/course/lesson/experiment,283,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:41 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316741146915300-XJYJkG] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:41 lesson_controller.go:101: [32m[INFO][0m [trace_id=1687316741146915300-XJYJkG] [CourseLessonExperiment Controller] start***
+2023/06/21 11:05:41 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316741146915300-Szesy0] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:41 lesson_controller.go:110: [32m[INFO][0m [trace_id=1687316741146915300-XJYJkG] [CourseLessonExperiment Controller] input param: {ID:112}
+2023/06/21 11:05:41 lesson_controller.go:43: [32m[INFO][0m [trace_id=1687316741146915300-Szesy0] [CourseLessonContent Controller] start***
+2023/06/21 11:05:41 lesson_controller.go:52: [32m[INFO][0m [trace_id=1687316741146915300-Szesy0] [CourseLessonContent Controller] input param: {ID:112}
+2023/06/21 11:05:41 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316741146915300-De18NK] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:41 lesson_controller.go:72: [32m[INFO][0m [trace_id=1687316741146915300-De18NK] [CourseLessonRefer Controller] start***
+2023/06/21 11:05:41 lesson_controller.go:81: [32m[INFO][0m [trace_id=1687316741146915300-De18NK] [CourseLessonRefer Controller] input param: {ID:112}
+2023/06/21 11:05:41 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316741148455000-vLVxSE] [CheckAuth Controller] Start /edu/v1/course/lesson/work/commit,896,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:41 perm_controller.go:42: [32m[INFO][0m [trace_id=1687316741148455000-xIpNA4] [CheckAuth Controller] Start /edu/v1/course/lesson/work,946,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWJjIiwiZXhwIjoxNjg3MzQyNTY0LCJpc3MiOiIxNjg3MzEzNzY0In0.jslucSBdbnzv5qD1JtqA6vLizPC0uzK9jL1KanGBe7k
+2023/06/21 11:05:41 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316741148455000-vLVxSE] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:41 lesson_controller.go:38: [32m[INFO][0m [trace_id=1687316741146915300-ob3CFe] [CourseLessonOverview Controller] end***  result:  res={LessonTitle:第一节 LessonSections:[{LessonID:112 Title:教学内容 Index:1} {LessonID:112 Title:参考资源 Index:2} {LessonID:112 Title:做实验 Index:3} {LessonID:112 Title:作业 Index:4}]},err=<ni...
+2023/06/21 11:05:41 perm_controller.go:65: [32m[INFO][0m [trace_id=1687316741148455000-xIpNA4] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 11:05:41 lesson_controller.go:130: [32m[INFO][0m [trace_id=1687316741148455000-xIpNA4] [CourseLessonWork Controller] start***
+2023/06/21 11:05:41 work_commit_controller.go:18: [32m[INFO][0m [trace_id=1687316741148455000-vLVxSE] [LessonWorkCommit Controller] start***
+2023/06/21 11:05:41 lesson_controller.go:139: [32m[INFO][0m [trace_id=1687316741148455000-xIpNA4] [CourseLessonWork Controller] input param: {ID:112}
+2023/06/21 11:05:41 work_commit_controller.go:28: [32m[INFO][0m [trace_id=1687316741148455000-vLVxSE] [LessonWorkCommit Controller] input param: {LessonID:112 LoginID:abc}
+2023/06/21 11:05:41 lesson_controller.go:125: [32m[INFO][0m [trace_id=1687316741146915300-XJYJkG] [ Controller] end***  result:  res=[{LessonID:112 Title:机械手臂仿真.ibe Content:http://127.0.0.1:8060/uploads/20230621105912676437300063c13.ibe ContentType:0 Index:0}],err=<nil>
+2023/06/21 11:05:41 lesson_controller.go:154: [32m[INFO][0m [trace_id=1687316741148455000-xIpNA4] [CourseLessonWork Controller] end***  result:  res={LessonID:112 Requirement:<p>1布置作业&nbsp;</p>
+<p>2布置作业</p>
+<p>3布置作业布置作业布置作业要害u求</p> Contents:[]},err=<nil>
+2023/06/21 11:05:41 lesson_controller.go:96: [32m[INFO][0m [trace_id=1687316741146915300-De18NK] [CourseLessonRefer Controller] end***  result:  res=[{LessonID:112 Title:电磁铁仿真案例.mp4 Content:http://127.0.0.1:8060/uploads/20230621105828191816000fed2e3.mp4 ContentType:0 Index:0}],err=<nil>
+2023/06/21 11:05:41 work_commit_controller.go:41: [32m[INFO][0m [trace_id=1687316741148455000-vLVxSE] [LessonWorkCommit Controller] end***  result:  res={LessonID:0 UserLoginID: WorkCommitFiles:[] WorkCommitMessage:},err=record not found
+2023/06/21 11:05:41 lesson_controller.go:67: [32m[INFO][0m [trace_id=1687316741146915300-Szesy0] [CourseLessonContent Controller] end***  result:  res=[{LessonID:112 Title:第一部分 Content:<p>第一部分第一部分</p>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgsAAAC2CAYAAABXlM5MAAAgAElEQVR4nOzdeZRV5Z3w++8ez1h1ap4Lilkc0KACYjQkMahplUR...
+2023/06/21 11:28:11 lesson_controller.go:130: [32m[INFO][0m [trace_id=1687318091105578100-4ZCPXh] [CourseLessonWork Controller] start***
+2023/06/21 11:28:11 lesson_controller.go:139: [32m[INFO][0m [trace_id=1687318091105578100-4ZCPXh] [CourseLessonWork Controller] input param: {ID:112}
+2023/06/21 11:28:16 lesson_controller.go:154: [32m[INFO][0m [trace_id=1687318091105578100-4ZCPXh] [CourseLessonWork Controller] end***  result:  res={LessonID:112 Requirement:<p>1布置作业&nbsp;</p>
+<p>2布置作业</p>
+<p>3布置作业布置作业布置作业要害u求</p> Contents:[]},err=<nil>
+2023/06/21 11:28:57 lesson_controller.go:130: [32m[INFO][0m [trace_id=1687318136604597500-oq5d15] [CourseLessonWork Controller] start***
+2023/06/21 11:29:01 lesson_controller.go:139: [32m[INFO][0m [trace_id=1687318136604597500-oq5d15] [CourseLessonWork Controller] input param: {ID:112}
+2023/06/21 11:32:43 lesson_controller.go:154: [32m[INFO][0m [trace_id=1687318136604597500-oq5d15] [CourseLessonWork Controller] end***  result:  res={LessonID:112 Requirement:<p>1布置作业&nbsp;</p>
+<p>2布置作业</p>
+<p>3布置作业布置作业布置作业要害u求</p> Contents:[]},err=<nil>
+2023/06/21 11:32:48 lesson_controller.go:130: [32m[INFO][0m [trace_id=1687318366715424000-dVvMgS] [CourseLessonWork Controller] start***
+2023/06/21 11:32:50 lesson_controller.go:139: [32m[INFO][0m [trace_id=1687318366715424000-dVvMgS] [CourseLessonWork Controller] input param: {ID:112}
+2023/06/21 11:33:13 lesson_controller.go:154: [32m[INFO][0m [trace_id=1687318366715424000-dVvMgS] [CourseLessonWork Controller] end***  result:  res={LessonID:112 Requirement:<p>1布置作业&nbsp;</p>
+<p>2布置作业</p>
+<p>3布置作业布置作业布置作业要害u求</p> Contents:[]},err=<nil>
+2023/06/21 11:33:17 lesson_controller.go:130: [32m[INFO][0m [trace_id=1687318396500467300-qa1iuA] [CourseLessonWork Controller] start***
+2023/06/21 11:33:19 lesson_controller.go:139: [32m[INFO][0m [trace_id=1687318396500467300-qa1iuA] [CourseLessonWork Controller] input param: {ID:112}

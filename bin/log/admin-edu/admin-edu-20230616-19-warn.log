@@ -1,0 +1,12 @@
+2023/06/16 19:03:39 learning_category_dao.go:94: [33m[WARN][0m [trace_id=1686913419326547100] [userDao.CheckUser] fail 2,err=record not found
+2023/06/16 19:03:39 resource_dao.go:140: [33m[WARN][0m [trace_id=1686913419326547100] [userDao.CheckUser] fail 2,err=record not found, id=54
+2023/06/16 19:03:39 learning_category_dao.go:94: [33m[WARN][0m [trace_id=1686913419326547100] [userDao.CheckUser] fail 2,err=record not found
+2023/06/16 19:03:39 resource_dao.go:140: [33m[WARN][0m [trace_id=1686913419326547100] [userDao.CheckUser] fail 2,err=record not found, id=11
+2023/06/16 19:04:00 learning_category_dao.go:94: [33m[WARN][0m [trace_id=1686913440196043700] [userDao.CheckUser] fail 2,err=record not found
+2023/06/16 19:04:00 resource_dao.go:140: [33m[WARN][0m [trace_id=1686913440196043700] [userDao.CheckUser] fail 2,err=record not found, id=54
+2023/06/16 19:04:00 learning_category_dao.go:94: [33m[WARN][0m [trace_id=1686913440196043700] [userDao.CheckUser] fail 2,err=record not found
+2023/06/16 19:04:00 resource_dao.go:140: [33m[WARN][0m [trace_id=1686913440196043700] [userDao.CheckUser] fail 2,err=record not found, id=11
+2023/06/16 19:05:20 learning_category_dao.go:94: [33m[WARN][0m [trace_id=1686913520251999900] [userDao.CheckUser] fail 2,err=record not found
+2023/06/16 19:05:20 resource_dao.go:140: [33m[WARN][0m [trace_id=1686913520251999900] [userDao.CheckUser] fail 2,err=record not found, id=54
+2023/06/16 19:05:20 learning_category_dao.go:94: [33m[WARN][0m [trace_id=1686913520251999900] [userDao.CheckUser] fail 2,err=record not found
+2023/06/16 19:05:20 resource_dao.go:140: [33m[WARN][0m [trace_id=1686913520251999900] [userDao.CheckUser] fail 2,err=record not found, id=11

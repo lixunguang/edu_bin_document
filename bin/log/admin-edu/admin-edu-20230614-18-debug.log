@@ -1,0 +1,2 @@
+2023/06/14 18:12:40 admin_perm_service.go:49: [36m[DEBUG][0m newTokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4Njc0MTE2MCwiaXNzIjoiMTY4NjczNzU2MCJ9.k2L3AoBOPxP_d27tAtc8Cee4Lp0PksXvpT3QgdIhXjM
+2023/06/14 18:12:40 admin_perm_service.go:65: [36m[DEBUG][0m tokenStr:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsImV4cCI6MTY4Njc0MTE2MCwiaXNzIjoiMTY4NjczNzU2MCJ9.k2L3AoBOPxP_d27tAtc8Cee4Lp0PksXvpT3QgdIhXjM,&{10000 %!d(string=登录成功)}

@@ -1,0 +1,334 @@
+2023/06/21 14:00:36 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687327236972768700] [ResourceAdd Controller] start***
+2023/06/21 14:00:36 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687327236972768700] [AddRichtext Controller] input param: {Title:内容1 Desc:内容1 Content:<p>内容<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV8AAAC8CAYAAADfEq0ZAAAgAElEQVR4nOy9eZxVxZk+/lSd2yAINGgQUBtjXAAVY1iMjiBE0SgN0YkGpTExKpvO4oLkm/mNCoiTSb5x/c6Ma5RMDLQalShLFNQE3DDgEl...
+2023/06/21 14:00:36 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687327236972768700] [AddRichtext Controller] end***  result:  id=561,err=<nil>
+2023/06/21 14:00:36 admin_lesson_edit_controller.go:97: [32m[INFO][0m [trace_id=1687327236997990200] [LessonContentAdd Controller] start***
+2023/06/21 14:00:36 admin_lesson_edit_controller.go:106: [32m[INFO][0m [trace_id=1687327236997990200] [LessonContentAdd Controller] input param: {CourseID:103 LessonID:114 ResourceID:561 ResourceIndex:0}
+2023/06/21 14:00:37 admin_lesson_edit_controller.go:118: [32m[INFO][0m [trace_id=1687327236997990200] [LessonContentAdd Controller] end***  result:  res={ID:164},err=<nil>
+2023/06/21 14:01:19 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687327279078930300] [ResourceAdd Controller] start***
+2023/06/21 14:01:19 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687327279078930300] [AddRichtext Controller] input param: {Title:内容2 Desc:内容2 Content:<p><span style="background-color: rgb(248, 202, 198);">222222222222222</span></p>
+<p>&nbsp;</p>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa4AAAHNCAYAAABGlZ9uAAAgAElEQVR4nOy9e3xU...
+2023/06/21 14:01:19 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687327279078930300] [AddRichtext Controller] end***  result:  id=562,err=<nil>
+2023/06/21 14:01:19 admin_lesson_edit_controller.go:97: [32m[INFO][0m [trace_id=1687327279096786100] [LessonContentAdd Controller] start***
+2023/06/21 14:01:19 admin_lesson_edit_controller.go:106: [32m[INFO][0m [trace_id=1687327279096786100] [LessonContentAdd Controller] input param: {CourseID:103 LessonID:114 ResourceID:562 ResourceIndex:0}
+2023/06/21 14:01:19 admin_lesson_edit_controller.go:118: [32m[INFO][0m [trace_id=1687327279096786100] [LessonContentAdd Controller] end***  result:  res={ID:165},err=<nil>
+2023/06/21 14:01:39 upload_file_controller.go:19: [32m[INFO][0m [trace_id=1687327299000367500] [UploadFiles Controller] start***
+2023/06/21 14:01:39 upload_file_service.go:134: [32m[INFO][0m [trace_id=1687327299000367500] [service.UploadMultiFiles] form.File=map[file:[0xc000652000]], form=&{Value:map[] File:map[file:[0xc000652000]]}
+2023/06/21 14:01:39 upload_file_controller.go:28: [32m[INFO][0m [trace_id=1687327299000367500] [AddUser Controller] end***  result:  res=[{Url:video(1).mp4 ID:563 FullUrl:http://127.0.0.1:8050/uploads/20230621140139116286900eac3eb.mp4}],err=<nil>
+2023/06/21 14:01:39 admin_lesson_edit_controller.go:176: [32m[INFO][0m [trace_id=1687327299156069300] [LessonReferAdd Controller] start***
+2023/06/21 14:01:39 admin_lesson_edit_controller.go:185: [32m[INFO][0m [trace_id=1687327299156069300] [LessonReferAdd Controller] input param: {CourseID:103 LessonID:114 ResourceID:563 ResourceIndex:0}
+2023/06/21 14:01:39 admin_lesson_edit_controller.go:197: [32m[INFO][0m [trace_id=1687327299156069300] [LessonReferAdd Controller] end***  result:  res={ID:166},err=<nil>
+2023/06/21 14:02:17 upload_file_controller.go:19: [32m[INFO][0m [trace_id=1687327337748261100] [UploadFiles Controller] start***
+2023/06/21 14:02:17 upload_file_service.go:134: [32m[INFO][0m [trace_id=1687327337748261100] [service.UploadMultiFiles] form.File=map[file:[0xc000652190]], form=&{Value:map[] File:map[file:[0xc000652190]]}
+2023/06/21 14:02:17 upload_file_controller.go:28: [32m[INFO][0m [trace_id=1687327337748261100] [AddUser Controller] end***  result:  res=[{Url:cable.ibe ID:564 FullUrl:http://127.0.0.1:8050/uploads/20230621140217750283500e8c5ee.ibe}],err=<nil>
+2023/06/21 14:02:17 admin_lesson_edit_controller.go:254: [32m[INFO][0m [trace_id=1687327337765946400] [LessonExperimentAdd Controller] start***
+2023/06/21 14:02:17 admin_lesson_edit_controller.go:263: [32m[INFO][0m [trace_id=1687327337765946400] [LessonExperimentAdd Controller] input param: {CourseID:103 LessonID:114 ResourceID:564 ResourceIndex:0}
+2023/06/21 14:02:17 admin_lesson_edit_controller.go:275: [32m[INFO][0m [trace_id=1687327337765946400] [LessonExperimentAdd Controller] end***  result:  res={ID:167},err=<nil>
+2023/06/21 14:03:22 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687327402887925400] [ResourceAdd Controller] start***
+2023/06/21 14:03:22 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687327402887925400] [AddRichtext Controller] input param: {Title: Desc: Content:<p>作业说某某某，要求：</p>
+<p>111111111111111111111111111111111111</p>
+<p><span style="background-color: rgb(0, 0, 0); color: rgb(45, 194, 107);">22222222222222222222222</span></p>
+<p><span style="b...
+2023/06/21 14:03:22 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687327402887925400] [AddRichtext Controller] end***  result:  id=565,err=<nil>
+2023/06/21 14:03:22 admin_lesson_edit_controller.go:424: [32m[INFO][0m [trace_id=1687327402902178600] [LessonWorkRequirementUpdate Controller] start***
+2023/06/21 14:03:22 admin_lesson_edit_controller.go:433: [32m[INFO][0m [trace_id=1687327402902178600] [LessonWorkRequirementUpdate Controller] input param: {CourseID:103 LessonID:114 ResourceID:565 ResourceIndex:0}
+2023/06/21 14:03:22 admin_lesson_edit_controller.go:446: [32m[INFO][0m [trace_id=1687327402902178600] [LessonWorkRequirementUpdate Controller] end***  result:  res={ID:168},err=<nil>
+2023/06/21 14:27:36 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687328856273579300] [ResourceAdd Controller] start***
+2023/06/21 14:27:36 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687328856273579300] [AddRichtext Controller] input param: {Title:内容3 Desc:内容3 Content:<p><span style="background-color: rgb(248, 202, 198);">33333333</span></p>
+<p>&nbsp;</p>
+<p>333333</p>
+<p>&nbsp;</p>
+<p><span style="background-color: rgb(230, 126, 35);">333</span></p>
+<p>&nbsp;...
+2023/06/21 14:27:36 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687328856273579300] [AddRichtext Controller] end***  result:  id=566,err=<nil>
+2023/06/21 14:27:36 admin_lesson_edit_controller.go:97: [32m[INFO][0m [trace_id=1687328856282949700] [LessonContentAdd Controller] start***
+2023/06/21 14:27:36 admin_lesson_edit_controller.go:106: [32m[INFO][0m [trace_id=1687328856282949700] [LessonContentAdd Controller] input param: {CourseID:103 LessonID:114 ResourceID:566 ResourceIndex:0}
+2023/06/21 14:27:36 admin_lesson_edit_controller.go:118: [32m[INFO][0m [trace_id=1687328856282949700] [LessonContentAdd Controller] end***  result:  res={ID:169},err=<nil>
+2023/06/21 14:27:51 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687328871727778000] [CourseAll Controller] start***
+2023/06/21 14:27:51 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687328871727778000] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:27:56 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687328876489600700] [Course Controller] start***
+2023/06/21 14:27:56 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687328876489600700] [Course Controller] input param: {ID:103}
+2023/06/21 14:27:56 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687328876489600700] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程221 Author:[] PictureUrl:http://127.0.0.1:8050/uploads/202306211358154469340008b9b52.jpg PictureID:559 PictureName:n1.jpg VedioUrl:http://127.0.0.1:8050/uploads/202306211359131053157009d6672...
+2023/06/21 14:27:58 admin_course_edit_controller.go:174: [32m[INFO][0m [trace_id=1687328878817277200] [CourseLessonAll Controller] start***
+2023/06/21 14:27:58 admin_course_edit_controller.go:183: [32m[INFO][0m [trace_id=1687328878817277200] [CourseLessonAll Controller] input param: {ID:103}
+2023/06/21 14:27:58 admin_course_edit_controller.go:196: [32m[INFO][0m [trace_id=1687328878817277200] [CourseLessonAll Controller] end***  result:  res=[{ID:114 Title:第1节 Desc:第1节描}],err=<nil>
+2023/06/21 14:28:06 admin_course_edit_controller.go:147: [32m[INFO][0m [trace_id=1687328886426546400] [CourseLessonAdd Controller] start***
+2023/06/21 14:28:06 admin_course_edit_controller.go:156: [32m[INFO][0m [trace_id=1687328886426546400] [CourseLessonAdd Controller] input param: {CourseID:103 LessonTitle:第2节 LessonDesc:第2节描述}
+2023/06/21 14:28:06 admin_course_edit_controller.go:169: [32m[INFO][0m [trace_id=1687328886426546400] [CourseLessonAdd Controller] end***  result:  res={CourseId:103 LessonId:115},err=<nil>
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:69: [32m[INFO][0m [trace_id=1687328915691900400] [LessonContent Controller] start***
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:78: [32m[INFO][0m [trace_id=1687328915691900400] [LessonContent Controller] input param: {CourseID:103 LessonID:115}
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:148: [32m[INFO][0m [trace_id=1687328915691900400] [LessonRefer Controller] start***
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:157: [32m[INFO][0m [trace_id=1687328915691900400] [LessonRefer Controller] input param: {CourseID:103 LessonID:115}
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:226: [32m[INFO][0m [trace_id=1687328915692921300] [LessonExperiment Controller] start***
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:235: [32m[INFO][0m [trace_id=1687328915692921300] [LessonExperiment Controller] input param: {CourseID:103 LessonID:115}
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:304: [32m[INFO][0m [trace_id=1687328915692976900] [LessonExperiment Controller] start***
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:313: [32m[INFO][0m [trace_id=1687328915692976900] [LessonWork Controller] input param: {CourseID:103 LessonID:115}
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:172: [32m[INFO][0m [trace_id=1687328915691900400] [LessonRefer Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:250: [32m[INFO][0m [trace_id=1687328915692921300] [LessonExperiment Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:93: [32m[INFO][0m [trace_id=1687328915691900400] [LessonContent Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:335: [32m[INFO][0m [trace_id=1687328915692976900] [LessonWork Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:389: [32m[INFO][0m [trace_id=1687328915717854300] [LessonWorkRequirement Controller] start***
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:398: [32m[INFO][0m [trace_id=1687328915717854300] [LessonWorkRequirement Controller] input param: {CourseID:103 LessonID:115}
+2023/06/21 14:28:35 admin_lesson_edit_controller.go:420: [32m[INFO][0m [trace_id=1687328915717854300] [LessonWorkRequirement Controller] end***  result:  res={LessonID:0 ResourceID:0 Desc: Title: Content: ContentType:0 Index:0},err=<nil>
+2023/06/21 14:28:47 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687328927818104100] [ResourceAdd Controller] start***
+2023/06/21 14:28:47 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687328927818104100] [AddRichtext Controller] input param: {Title:内容111 Desc:内容111 Content:<p>内容111内容111内容111</p>}
+2023/06/21 14:28:47 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687328927818104100] [AddRichtext Controller] end***  result:  id=567,err=<nil>
+2023/06/21 14:28:47 admin_lesson_edit_controller.go:97: [32m[INFO][0m [trace_id=1687328927834512800] [LessonContentAdd Controller] start***
+2023/06/21 14:28:47 admin_lesson_edit_controller.go:106: [32m[INFO][0m [trace_id=1687328927834512800] [LessonContentAdd Controller] input param: {CourseID:103 LessonID:115 ResourceID:567 ResourceIndex:0}
+2023/06/21 14:28:47 admin_lesson_edit_controller.go:118: [32m[INFO][0m [trace_id=1687328927834512800] [LessonContentAdd Controller] end***  result:  res={ID:170},err=<nil>
+2023/06/21 14:29:19 upload_file_controller.go:19: [32m[INFO][0m [trace_id=1687328959140366100] [UploadFiles Controller] start***
+2023/06/21 14:29:19 upload_file_service.go:134: [32m[INFO][0m [trace_id=1687328959140366100] [service.UploadMultiFiles] form.File=map[file:[0xc0004a1720]], form=&{Value:map[] File:map[file:[0xc0004a1720]]}
+2023/06/21 14:29:19 upload_file_controller.go:28: [32m[INFO][0m [trace_id=1687328959140366100] [AddUser Controller] end***  result:  res=[{Url:video(1).mp4 ID:568 FullUrl:http://127.0.0.1:8050/uploads/20230621142919211582800eac3eb.mp4}],err=<nil>
+2023/06/21 14:29:19 admin_lesson_edit_controller.go:176: [32m[INFO][0m [trace_id=1687328959232968400] [LessonReferAdd Controller] start***
+2023/06/21 14:29:19 admin_lesson_edit_controller.go:185: [32m[INFO][0m [trace_id=1687328959232968400] [LessonReferAdd Controller] input param: {CourseID:103 LessonID:115 ResourceID:568 ResourceIndex:0}
+2023/06/21 14:29:19 admin_lesson_edit_controller.go:197: [32m[INFO][0m [trace_id=1687328959232968400] [LessonReferAdd Controller] end***  result:  res={ID:171},err=<nil>
+2023/06/21 14:29:51 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687328991075011800] [ResourceAdd Controller] start***
+2023/06/21 14:29:51 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687328991075011800] [AddRichtext Controller] input param: {Title: Desc: Content:<p>作业说明：</p>
+<p>1.。</p>
+<p>2</p>
+<p>3</p>
+<p>&nbsp;</p>}
+2023/06/21 14:29:51 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687328991075011800] [AddRichtext Controller] end***  result:  id=569,err=<nil>
+2023/06/21 14:29:51 admin_lesson_edit_controller.go:424: [32m[INFO][0m [trace_id=1687328991092366700] [LessonWorkRequirementUpdate Controller] start***
+2023/06/21 14:29:51 admin_lesson_edit_controller.go:433: [32m[INFO][0m [trace_id=1687328991092366700] [LessonWorkRequirementUpdate Controller] input param: {CourseID:103 LessonID:115 ResourceID:569 ResourceIndex:0}
+2023/06/21 14:29:51 admin_lesson_edit_controller.go:446: [32m[INFO][0m [trace_id=1687328991092366700] [LessonWorkRequirementUpdate Controller] end***  result:  res={ID:172},err=<nil>
+2023/06/21 14:40:40 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687329640550863700] [ResourceAdd Controller] start***
+2023/06/21 14:40:40 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687329640550863700] [AddRichtext Controller] input param: {Title: Desc: Content:<p>作业说明：</p>
+<p>1.。</p>
+<p>2</p>
+<p>3</p>
+<p>44444</p>
+<p>&nbsp;</p>}
+2023/06/21 14:40:40 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687329640550863700] [AddRichtext Controller] end***  result:  id=570,err=<nil>
+2023/06/21 14:40:46 admin_lesson_edit_controller.go:424: [32m[INFO][0m [trace_id=1687329640565477400] [LessonWorkRequirementUpdate Controller] start***
+2023/06/21 14:40:46 admin_lesson_edit_controller.go:433: [32m[INFO][0m [trace_id=1687329640565477400] [LessonWorkRequirementUpdate Controller] input param: {CourseID:103 LessonID:115 ResourceID:570 ResourceIndex:0}
+2023/06/21 14:40:46 admin_lesson_edit_controller.go:446: [32m[INFO][0m [trace_id=1687329640565477400] [LessonWorkRequirementUpdate Controller] end***  result:  res={ID:173},err=<nil>
+2023/06/21 14:41:15 admin_lesson_edit_controller.go:389: [32m[INFO][0m [trace_id=1687329673558657500] [LessonWorkRequirement Controller] start***
+2023/06/21 14:41:15 admin_lesson_edit_controller.go:398: [32m[INFO][0m [trace_id=1687329673558657500] [LessonWorkRequirement Controller] input param: {CourseID:111 LessonID:115}
+2023/06/21 14:41:15 admin_lesson_edit_controller.go:420: [32m[INFO][0m [trace_id=1687329673558657500] [LessonWorkRequirement Controller] end***  result:  res={LessonID:115 ResourceID:570 Desc: Title: Content:<p>作业说明：</p>
+<p>1.。</p>
+<p>2</p>
+<p>3</p>
+<p>44444</p>
+<p>&nbsp;</p> ContentType:7 Index:41},err=<nil>
+2023/06/21 14:45:40 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687329940226824400] [CourseAll Controller] start***
+2023/06/21 14:45:40 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687329940226824400] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:45:44 admin_course_edit_controller.go:174: [32m[INFO][0m [trace_id=1687329944997951700] [CourseLessonAll Controller] start***
+2023/06/21 14:45:44 admin_course_edit_controller.go:183: [32m[INFO][0m [trace_id=1687329944997951700] [CourseLessonAll Controller] input param: {ID:103}
+2023/06/21 14:45:45 admin_course_edit_controller.go:196: [32m[INFO][0m [trace_id=1687329944997951700] [CourseLessonAll Controller] end***  result:  res=[{ID:114 Title:第1节 Desc:第1节描} {ID:115 Title:第2节 Desc:第2节描述}],err=<nil>
+2023/06/21 14:45:50 admin_course_edit_controller.go:147: [32m[INFO][0m [trace_id=1687329950996523200] [CourseLessonAdd Controller] start***
+2023/06/21 14:45:50 admin_course_edit_controller.go:156: [32m[INFO][0m [trace_id=1687329950996523200] [CourseLessonAdd Controller] input param: {CourseID:103 LessonTitle:第3节 LessonDesc:第3节描述}
+2023/06/21 14:45:51 admin_course_edit_controller.go:169: [32m[INFO][0m [trace_id=1687329950996523200] [CourseLessonAdd Controller] end***  result:  res={CourseId:103 LessonId:116},err=<nil>
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:69: [32m[INFO][0m [trace_id=1687329952409466400] [LessonContent Controller] start***
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:78: [32m[INFO][0m [trace_id=1687329952409466400] [LessonContent Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:148: [32m[INFO][0m [trace_id=1687329952410655800] [LessonRefer Controller] start***
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:157: [32m[INFO][0m [trace_id=1687329952410655800] [LessonRefer Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:226: [32m[INFO][0m [trace_id=1687329952411173900] [LessonExperiment Controller] start***
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:235: [32m[INFO][0m [trace_id=1687329952411173900] [LessonExperiment Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:304: [32m[INFO][0m [trace_id=1687329952411689300] [LessonExperiment Controller] start***
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:313: [32m[INFO][0m [trace_id=1687329952411689300] [LessonWork Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:93: [32m[INFO][0m [trace_id=1687329952409466400] [LessonContent Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:335: [32m[INFO][0m [trace_id=1687329952411689300] [LessonWork Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:172: [32m[INFO][0m [trace_id=1687329952410655800] [LessonRefer Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:45:52 admin_lesson_edit_controller.go:250: [32m[INFO][0m [trace_id=1687329952411173900] [LessonExperiment Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:45:56 admin_lesson_edit_controller.go:389: [32m[INFO][0m [trace_id=1687329952436073600] [LessonWorkRequirement Controller] start***
+2023/06/21 14:45:56 admin_lesson_edit_controller.go:398: [32m[INFO][0m [trace_id=1687329952436073600] [LessonWorkRequirement Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:45:56 admin_lesson_edit_controller.go:420: [32m[INFO][0m [trace_id=1687329952436073600] [LessonWorkRequirement Controller] end***  result:  res={LessonID:0 ResourceID:0 Desc: Title: Content: ContentType:0 Index:0},err=<nil>
+2023/06/21 14:46:12 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687329972267012200] [ResourceAdd Controller] start***
+2023/06/21 14:46:12 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687329972267012200] [AddRichtext Controller] input param: {Title:内容1 Desc:内容1 Content:<p>章节三&nbsp;</p>
+<p>&nbsp;</p>
+<p>内容1</p>}
+2023/06/21 14:46:12 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687329972267012200] [AddRichtext Controller] end***  result:  id=571,err=<nil>
+2023/06/21 14:46:12 admin_lesson_edit_controller.go:97: [32m[INFO][0m [trace_id=1687329972283086500] [LessonContentAdd Controller] start***
+2023/06/21 14:46:12 admin_lesson_edit_controller.go:106: [32m[INFO][0m [trace_id=1687329972283086500] [LessonContentAdd Controller] input param: {CourseID:103 LessonID:116 ResourceID:571 ResourceIndex:0}
+2023/06/21 14:46:12 admin_lesson_edit_controller.go:118: [32m[INFO][0m [trace_id=1687329972283086500] [LessonContentAdd Controller] end***  result:  res={ID:174},err=<nil>
+2023/06/21 14:46:25 upload_file_controller.go:19: [32m[INFO][0m [trace_id=1687329985785102500] [UploadFiles Controller] start***
+2023/06/21 14:46:25 upload_file_service.go:134: [32m[INFO][0m [trace_id=1687329985785102500] [service.UploadMultiFiles] form.File=map[file:[0xc00009a190]], form=&{Value:map[] File:map[file:[0xc00009a190]]}
+2023/06/21 14:46:25 upload_file_controller.go:28: [32m[INFO][0m [trace_id=1687329985785102500] [AddUser Controller] end***  result:  res=[{Url:项目一期链接.txt ID:572 FullUrl:http://127.0.0.1:8050/uploads/202306211446257851025007f8020.txt}],err=<nil>
+2023/06/21 14:46:25 admin_lesson_edit_controller.go:339: [32m[INFO][0m [trace_id=1687329985794799400] [LessonWorkAdd Controller] start***
+2023/06/21 14:46:25 admin_lesson_edit_controller.go:348: [32m[INFO][0m [trace_id=1687329985794799400] [LessonWorkAdd Controller] input param: {CourseID:103 LessonID:116 ResourceID:572 ResourceIndex:0}
+2023/06/21 14:46:25 admin_lesson_edit_controller.go:360: [32m[INFO][0m [trace_id=1687329985794799400] [LessonWorkAdd Controller] end***  result:  res={ID:175},err=<nil>
+2023/06/21 14:46:38 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687329998475203800] [ResourceAdd Controller] start***
+2023/06/21 14:46:38 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687329998475203800] [AddRichtext Controller] input param: {Title: Desc: Content:<p>要求1</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>要求2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>要求3</p>}
+2023/06/21 14:46:38 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687329998475203800] [AddRichtext Controller] end***  result:  id=573,err=<nil>
+2023/06/21 14:46:40 admin_lesson_edit_controller.go:424: [32m[INFO][0m [trace_id=1687329998492099100] [LessonWorkRequirementUpdate Controller] start***
+2023/06/21 14:46:40 admin_lesson_edit_controller.go:433: [32m[INFO][0m [trace_id=1687329998492099100] [LessonWorkRequirementUpdate Controller] input param: {CourseID:103 LessonID:116 ResourceID:573 ResourceIndex:0}
+2023/06/21 14:46:40 admin_lesson_edit_controller.go:446: [32m[INFO][0m [trace_id=1687329998492099100] [LessonWorkRequirementUpdate Controller] end***  result:  res={ID:176},err=<nil>
+2023/06/21 14:47:18 admin_resource_controller.go:15: [32m[INFO][0m [trace_id=1687330038573545600] [ResourceAdd Controller] start***
+2023/06/21 14:47:18 admin_resource_controller.go:24: [32m[INFO][0m [trace_id=1687330038573545600] [AddRichtext Controller] input param: {Title:内容12 Desc:内容12 Content:<p>章节三&nbsp;</p>
+<p>222222</p>
+<p>内容1</p>}
+2023/06/21 14:47:18 admin_resource_controller.go:41: [32m[INFO][0m [trace_id=1687330038573545600] [AddRichtext Controller] end***  result:  id=574,err=<nil>
+2023/06/21 14:47:18 admin_lesson_edit_controller.go:97: [32m[INFO][0m [trace_id=1687330038592174800] [LessonContentAdd Controller] start***
+2023/06/21 14:47:18 admin_lesson_edit_controller.go:106: [32m[INFO][0m [trace_id=1687330038592174800] [LessonContentAdd Controller] input param: {CourseID:103 LessonID:116 ResourceID:574 ResourceIndex:0}
+2023/06/21 14:47:18 admin_lesson_edit_controller.go:118: [32m[INFO][0m [trace_id=1687330038592174800] [LessonContentAdd Controller] end***  result:  res={ID:177},err=<nil>
+2023/06/21 14:54:21 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330461490605600] [CheckAuth Controller] Start /admin/teacher/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:26 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330466768243100] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:30 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330470422824800] [CheckAuth Controller] Start /admin/learning/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:30 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330470423549800] [CheckAuth Controller] Start /admin/learning/category/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:31 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330471280725000] [CheckAuth Controller] Start /admin/learning/category/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:34 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330474859195000] [CheckAuth Controller] Start /admin/teacher/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:37 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330477721558900] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:42 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330482898819500] [CheckAuth Controller] Start /admin/teacher/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:45 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330485134217500] [CheckAuth Controller] Start /admin/learning/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:45 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330485134217500] [CheckAuth Controller] Start /admin/learning/category/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:47 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330487463802400] [CheckAuth Controller] Start /admin/learning/category/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:49 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330489097273000] [CheckAuth Controller] Start /admin/teacher/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:50 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330490599668200] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:54:56 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330496864055900] [CheckAuth Controller] Start /admin/teacher/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:55:20 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330520901180200] [CheckAuth Controller] Start /admin/user,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTIxODAsImlzcyI6IjE2ODczMjY5ODAifQ.5Ibq-uuaExr-kzZhVApeF8Az2O5WvwAsDHSkxO9i8tU
+2023/06/21 14:55:38 admin_perm_controller.go:56: [32m[INFO][0m [trace_id=1687330538342908000] [Login Controller] start***
+2023/06/21 14:55:38 admin_perm_controller.go:65: [32m[INFO][0m [trace_id=1687330538342908000] [Login Controller] input param: {Password:admin1 Name:admin1 Dept: IsTeacher:false}
+2023/06/21 14:55:38 admin_perm_controller.go:94: [32m[INFO][0m [trace_id=1687330538342908000] [Login Controller] end***  result:  res=登录成功,token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:55:38 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330538352953900] [CheckAuth Controller] Start /admin/user,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:55:38 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330538352953900] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:55:38 admin_perm_controller.go:164: [32m[INFO][0m [trace_id=1687330538352953900] [GetUser Controller] start***
+2023/06/21 14:55:38 admin_perm_controller.go:207: [32m[INFO][0m [trace_id=1687330538352953900] [GetUser Controller] end***  result:  res=[{BaseModel:{ID:1 CreatedAt:2023-06-07 09:49:27 +0800 CST UpdatedAt:2023-06-07 09:49:27 +0800 CST} LoginID:0 Name:admin1 Password:admin1 Role:15 PhoneNumber: CreatorID:0 IsDeleted:0}],err=<nil>
+2023/06/21 14:55:45 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330545209735100] [CheckAuth Controller] Start /admin/learning/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:55:45 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330545210624800] [CheckAuth Controller] Start /admin/learning/category/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:55:45 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330545209735100] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:55:45 admin_learning_edit_controller.go:15: [32m[INFO][0m [trace_id=1687330545209735100] [LearningAll Controller] start***
+2023/06/21 14:55:45 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330545210624800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:55:45 admin_learning_edit_controller.go:138: [32m[INFO][0m [trace_id=1687330545210624800] [LearningCategory Controller] start***
+2023/06/21 14:55:45 admin_learning_edit_controller.go:148: [32m[INFO][0m [trace_id=1687330545210624800] [LearningCategory Controller] end***  result:  res=[{ID:16 Title:111 Desc:1111} {ID:3 Title:进阶视频 Desc:进阶视频进阶视频进阶视频} {ID:4 Title:高级视频 Desc:高级视频高级视频高级视频} {ID:2 Title:提高视频 Desc:基础视频基础视�...
+2023/06/21 14:55:45 admin_learning_edit_controller.go:29: [32m[INFO][0m [trace_id=1687330545209735100] [LearningAll Controller] end***  result:  res=[{ID:20 Title:但况面内气应看 Desc:elit Author:admin1 PictureUrl: Category:111} {ID:19 Title:1111 Desc:1111111111111111 Author:222 PictureUrl: Category:} {ID:5 Title:数字化仿真赋能高校人才培养 Desc:当前...
+2023/06/21 14:56:20 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330580736908700] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:56:20 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330580736908700] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:56:20 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687330580736908700] [CourseAll Controller] start***
+2023/06/21 14:56:20 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687330580736908700] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:56:41 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330601566516100] [CheckAuth Controller] Start /admin/student/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:56:41 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330601566516100] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:56:41 admin_user_controller.go:98: [32m[INFO][0m [trace_id=1687330601566516100] [AllUser Controller] start***
+2023/06/21 14:56:41 admin_user_controller.go:112: [32m[INFO][0m [trace_id=1687330601566516100] [AllUser Controller] end***  result:  res=[{LoginID:abc Name:abc1 Password:abc1 OrganizationID:0} {LoginID:123 Name:lxg1 Password:123 OrganizationID:0} {LoginID:a1 Name:admin Password:admin OrganizationID:44} {LoginID:33 Name:33 Password:33 OrganizationID:3}],err=<nil>
+2023/06/21 14:56:42 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330602232369100] [CheckAuth Controller] Start /admin/teacher/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:56:42 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330602232369100] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:56:42 admin_user_controller.go:197: [32m[INFO][0m [trace_id=1687330602232369100] [AllTeacher Controller] start***
+2023/06/21 14:56:42 admin_user_controller.go:211: [32m[INFO][0m [trace_id=1687330602232369100] [AllTeacher Controller] end***  result:  res=[{LoginID:14 Name:111 Password:11 OrganizationID:11 Introduce:1111} {LoginID:备按是来 Name:备按是来 Password:1111 OrganizationID:11 Introduce:0} {LoginID:云道教育 Name:云道教育 Password: OrganizationID:0 Intr...
+2023/06/21 14:56:45 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330605552135900] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:56:45 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330605552135900] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:56:45 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687330605552135900] [CourseAll Controller] start***
+2023/06/21 14:56:45 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687330605552135900] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:56:56 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330616410149000] [CheckAuth Controller] Start /admin/course,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:56:56 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330616410149000] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:56:56 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687330616410149000] [Course Controller] start***
+2023/06/21 14:56:56 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687330616410149000] [Course Controller] input param: {ID:1}
+2023/06/21 14:56:56 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687330616410149000] [Course Controller] end***  result:  res={Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离心载荷...
+2023/06/21 14:57:23 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330643374987800] [CheckAuth Controller] Start /admin/learning/category/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:57:23 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330643374987800] [CheckAuth Controller] Start /admin/learning/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:57:23 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330643374987800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:57:23 admin_learning_edit_controller.go:138: [32m[INFO][0m [trace_id=1687330643374987800] [LearningCategory Controller] start***
+2023/06/21 14:57:23 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330643374987800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:57:23 admin_learning_edit_controller.go:15: [32m[INFO][0m [trace_id=1687330643374987800] [LearningAll Controller] start***
+2023/06/21 14:57:23 admin_learning_edit_controller.go:148: [32m[INFO][0m [trace_id=1687330643374987800] [LearningCategory Controller] end***  result:  res=[{ID:16 Title:111 Desc:1111} {ID:3 Title:进阶视频 Desc:进阶视频进阶视频进阶视频} {ID:4 Title:高级视频 Desc:高级视频高级视频高级视频} {ID:2 Title:提高视频 Desc:基础视频基础视�...
+2023/06/21 14:57:23 admin_learning_edit_controller.go:29: [32m[INFO][0m [trace_id=1687330643374987800] [LearningAll Controller] end***  result:  res=[{ID:20 Title:但况面内气应看 Desc:elit Author:admin1 PictureUrl: Category:111} {ID:19 Title:1111 Desc:1111111111111111 Author:222 PictureUrl: Category:} {ID:5 Title:数字化仿真赋能高校人才培养 Desc:当前...
+2023/06/21 14:57:31 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330651202128200] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:57:31 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330651202128200] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:57:31 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687330651202128200] [CourseAll Controller] start***
+2023/06/21 14:57:31 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687330651202128200] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:57:43 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330663108428700] [CheckAuth Controller] Start /admin/course,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:57:43 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330663108428700] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:57:43 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687330663108428700] [Course Controller] start***
+2023/06/21 14:57:43 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687330663108428700] [Course Controller] input param: {ID:1}
+2023/06/21 14:57:43 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687330663108428700] [Course Controller] end***  result:  res={Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离心载荷...
+2023/06/21 14:57:46 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330666449114000] [CheckAuth Controller] Start /admin/student/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:57:46 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330666449114000] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:57:46 admin_user_controller.go:98: [32m[INFO][0m [trace_id=1687330666449114000] [AllUser Controller] start***
+2023/06/21 14:57:46 admin_user_controller.go:112: [32m[INFO][0m [trace_id=1687330666449114000] [AllUser Controller] end***  result:  res=[{LoginID:abc Name:abc1 Password:abc1 OrganizationID:0} {LoginID:123 Name:lxg1 Password:123 OrganizationID:0} {LoginID:a1 Name:admin Password:admin OrganizationID:44} {LoginID:33 Name:33 Password:33 OrganizationID:3}],err=<nil>
+2023/06/21 14:57:47 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330667415691800] [CheckAuth Controller] Start /admin/teacher/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:57:47 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330667415691800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:57:47 admin_user_controller.go:197: [32m[INFO][0m [trace_id=1687330667415691800] [AllTeacher Controller] start***
+2023/06/21 14:57:47 admin_user_controller.go:211: [32m[INFO][0m [trace_id=1687330667415691800] [AllTeacher Controller] end***  result:  res=[{LoginID:14 Name:111 Password:11 OrganizationID:11 Introduce:1111} {LoginID:备按是来 Name:备按是来 Password:1111 OrganizationID:11 Introduce:0} {LoginID:云道教育 Name:云道教育 Password: OrganizationID:0 Intr...
+2023/06/21 14:57:48 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330668258486200] [CheckAuth Controller] Start /admin/student/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:57:48 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330668258486200] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:57:48 admin_user_controller.go:98: [32m[INFO][0m [trace_id=1687330668258486200] [AllUser Controller] start***
+2023/06/21 14:57:48 admin_user_controller.go:112: [32m[INFO][0m [trace_id=1687330668258486200] [AllUser Controller] end***  result:  res=[{LoginID:abc Name:abc1 Password:abc1 OrganizationID:0} {LoginID:123 Name:lxg1 Password:123 OrganizationID:0} {LoginID:a1 Name:admin Password:admin OrganizationID:44} {LoginID:33 Name:33 Password:33 OrganizationID:3}],err=<nil>
+2023/06/21 14:57:49 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330669585548600] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:57:49 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330669585548600] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:57:49 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687330669585548600] [CourseAll Controller] start***
+2023/06/21 14:57:49 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687330669585548600] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:58:05 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330685922562600] [CheckAuth Controller] Start /admin/course,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:05 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330685922562600] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:05 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687330685922562600] [Course Controller] start***
+2023/06/21 14:58:05 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687330685922562600] [Course Controller] input param: {ID:103}
+2023/06/21 14:58:05 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687330685922562600] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程221 Author:[] PictureUrl:http://127.0.0.1:8050/uploads/202306211358154469340008b9b52.jpg PictureID:559 PictureName:n1.jpg VedioUrl:http://127.0.0.1:8050/uploads/202306211359131053157009d6672...
+2023/06/21 14:58:08 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330688347833600] [CheckAuth Controller] Start /admin/course/lesson/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:08 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330688347833600] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:08 admin_course_edit_controller.go:174: [32m[INFO][0m [trace_id=1687330688347833600] [CourseLessonAll Controller] start***
+2023/06/21 14:58:08 admin_course_edit_controller.go:183: [32m[INFO][0m [trace_id=1687330688347833600] [CourseLessonAll Controller] input param: {ID:103}
+2023/06/21 14:58:08 admin_course_edit_controller.go:196: [32m[INFO][0m [trace_id=1687330688347833600] [CourseLessonAll Controller] end***  result:  res=[{ID:114 Title:第1节 Desc:第1节描} {ID:115 Title:第2节 Desc:第2节描述} {ID:116 Title:第3节 Desc:第3节描述}],err=<nil>
+2023/06/21 14:58:11 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330691585778900] [CheckAuth Controller] Start /admin/lesson/content,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:11 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330691585778900] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:69: [32m[INFO][0m [trace_id=1687330691585778900] [LessonContent Controller] start***
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:78: [32m[INFO][0m [trace_id=1687330691585778900] [LessonContent Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:58:11 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330691586829800] [CheckAuth Controller] Start /admin/lesson/experiment,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:11 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330691586829800] [CheckAuth Controller] Start /admin/lesson/refer,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:11 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330691586829800] [CheckAuth Controller] Start /admin/lesson/work,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:11 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330691586829800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:304: [32m[INFO][0m [trace_id=1687330691586829800] [LessonExperiment Controller] start***
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:313: [32m[INFO][0m [trace_id=1687330691586829800] [LessonWork Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:58:11 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330691586829800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:226: [32m[INFO][0m [trace_id=1687330691586829800] [LessonExperiment Controller] start***
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:235: [32m[INFO][0m [trace_id=1687330691586829800] [LessonExperiment Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:58:11 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330691586829800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:148: [32m[INFO][0m [trace_id=1687330691586829800] [LessonRefer Controller] start***
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:157: [32m[INFO][0m [trace_id=1687330691586829800] [LessonRefer Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:172: [32m[INFO][0m [trace_id=1687330691586829800] [LessonRefer Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:250: [32m[INFO][0m [trace_id=1687330691586829800] [LessonExperiment Controller] end***  result:  res=[],err=<nil>
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:93: [32m[INFO][0m [trace_id=1687330691585778900] [LessonContent Controller] end***  result:  res=[{LessonID:116 ResourceID:571 Desc:内容1 Title:内容1 Content:<p>章节三&nbsp;</p>
+<p>&nbsp;</p>
+<p>内容1</p> ContentType:7 Index:0} {LessonID:116 ResourceID:574 Desc:内容12 Title:内容12 Content:<p>章节三&nb...
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:335: [32m[INFO][0m [trace_id=1687330691586829800] [LessonWork Controller] end***  result:  res=[{LessonID:116 ResourceID:572 Desc:default val Title:项目一期链接.txt Content:http://127.0.0.1:8050/uploads/202306211446257851025007f8020.txt ContentType:0 Index:42}],err=<nil>
+2023/06/21 14:58:11 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330691605110700] [CheckAuth Controller] Start /admin/lesson/work/requirement,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:11 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330691605110700] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:389: [32m[INFO][0m [trace_id=1687330691605110700] [LessonWorkRequirement Controller] start***
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:398: [32m[INFO][0m [trace_id=1687330691605110700] [LessonWorkRequirement Controller] input param: {CourseID:103 LessonID:116}
+2023/06/21 14:58:11 admin_lesson_edit_controller.go:420: [32m[INFO][0m [trace_id=1687330691605110700] [LessonWorkRequirement Controller] end***  result:  res={LessonID:116 ResourceID:573 Desc: Title: Content:<p>要求1</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>要求2</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>要求3</p> ContentType:7 Index:41},err=<nil>
+2023/06/21 14:58:18 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330698175794100] [CheckAuth Controller] Start /admin/lesson/work/del,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:18 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330698175794100] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:18 admin_lesson_edit_controller.go:364: [32m[INFO][0m [trace_id=1687330698175794100] [LessonExperimentDel Controller] start***
+2023/06/21 14:58:18 admin_lesson_edit_controller.go:373: [32m[INFO][0m [trace_id=1687330698175794100] [LessonWorkDel Controller] input param: {CourseID:103 LessonID:116 ResourceID:572}
+2023/06/21 14:58:18 admin_lesson_edit_controller.go:385: [32m[INFO][0m [trace_id=1687330698175794100] [LessonWorkDel Controller] end***  result:  res={ID:572},err=<nil>
+2023/06/21 14:58:27 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330707425918600] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:27 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330707425918600] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:27 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687330707425918600] [CourseAll Controller] start***
+2023/06/21 14:58:27 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687330707425918600] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:58:29 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330709857261900] [CheckAuth Controller] Start /admin/course,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:29 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330709857261900] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:29 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687330709857261900] [Course Controller] start***
+2023/06/21 14:58:29 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687330709857261900] [Course Controller] input param: {ID:103}
+2023/06/21 14:58:29 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687330709857261900] [Course Controller] end***  result:  res={Title:仿真课程2 Desc:仿真课程221 Author:[] PictureUrl:http://127.0.0.1:8050/uploads/202306211358154469340008b9b52.jpg PictureID:559 PictureName:n1.jpg VedioUrl:http://127.0.0.1:8050/uploads/202306211359131053157009d6672...
+2023/06/21 14:58:48 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330728547007700] [CheckAuth Controller] Start /admin/course/add,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:48 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330728547007700] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:48 admin_course_edit_controller.go:95: [32m[INFO][0m [trace_id=1687330728547007700] [CourseAdd Controller] start***
+2023/06/21 14:58:48 admin_course_edit_controller.go:104: [32m[INFO][0m [trace_id=1687330728547007700] [CourseAdd Controller] input param: {Title:new course Desc:new course AuthorID:1 PictureID:0 VedioID:0}
+2023/06/21 14:58:48 admin_course_edit_controller.go:142: [32m[INFO][0m [trace_id=1687330728547007700] [CourseAdd Controller] end***  result:  res=104,err=<nil>
+2023/06/21 14:58:48 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330728568277800] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:48 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330728568866000] [CheckAuth Controller] Start /admin/course/all,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:48 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330728568277800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:48 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687330728568277800] [CourseAll Controller] start***
+2023/06/21 14:58:48 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330728568866000] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:48 admin_course_edit_controller.go:16: [32m[INFO][0m [trace_id=1687330728568866000] [CourseAll Controller] start***
+2023/06/21 14:58:48 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687330728568277800] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:58:48 admin_course_edit_controller.go:33: [32m[INFO][0m [trace_id=1687330728568866000] [CourseAll Controller] end***  result:  res=[{ID:1 Title:发动机传动轴实训课1 Desc:发动机传动轴在汽车传动过程中最重要、载荷最大、价格最 昂贵的零件之一，在工作过程中，会受到活塞杆的载荷和工作转速引起的离...
+2023/06/21 14:58:51 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330731243940800] [CheckAuth Controller] Start /admin/course,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:58:51 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330731243940800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:58:51 admin_course_edit_controller.go:67: [32m[INFO][0m [trace_id=1687330731243940800] [Course Controller] start***
+2023/06/21 14:58:51 admin_course_edit_controller.go:76: [32m[INFO][0m [trace_id=1687330731243940800] [Course Controller] input param: {ID:104}
+2023/06/21 14:58:51 admin_course_edit_controller.go:90: [32m[INFO][0m [trace_id=1687330731243940800] [Course Controller] end***  result:  res={Title:new course Desc:new course Author:[] PictureUrl: PictureID:0 PictureName: VedioUrl: VedioID:0 VedioName:},err=<nil>
+2023/06/21 14:59:09 admin_perm_controller.go:27: [32m[INFO][0m [trace_id=1687330749139488800] [CheckAuth Controller] Start /admin/upload_files,token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODczNTU3MzgsImlzcyI6IjE2ODczMzA1MzgifQ.qxTXtreksQ2KFtnfUyjcU025ZcT1DhezcWps7Z3Z7JQ
+2023/06/21 14:59:09 admin_perm_controller.go:50: [32m[INFO][0m [trace_id=1687330749139488800] [CheckAuth Controller] end***  result:  check ok
+2023/06/21 14:59:09 upload_file_controller.go:19: [32m[INFO][0m [trace_id=1687330749139488800] [UploadFiles Controller] start***
+2023/06/21 14:59:09 upload_file_service.go:134: [32m[INFO][0m [trace_id=1687330749139488800] [service.UploadMultiFiles] form.File=map[file:[0xc0006789b0]], form=&{Value:map[] File:map[file:[0xc0006789b0]]}
+2023/06/21 14:59:09 upload_file_controller.go:28: [32m[INFO][0m [trace_id=1687330749139488800] [AddUser Controller] end***  result:  res=[{Url:34.jpg ID:575 FullUrl:http://127.0.0.1:8050/uploads/20230621145909141561600fed1da.jpg}],err=<nil>

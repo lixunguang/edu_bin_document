@@ -1,0 +1,4 @@
+2023/06/21 18:12:13 perm_controller.go:72: [32m[INFO][0m [trace_id=1687342333437299800-l7vieD] [Login Controller] start ***
+2023/06/21 18:12:13 perm_controller.go:81: [32m[INFO][0m [trace_id=1687342333437299800-l7vieD] [Login Controller] input param: {LoginId:202301002 Password:admin Name:admin Dept:信息工程学院 IsTeacher:false}
+2023/06/21 18:12:13 perm_service.go:93: [32m[INFO][0m [trace_id=1687342333437299800-l7vieD] ,&{10001 %!d(string=登录失败)}
+2023/06/21 18:12:13 perm_controller.go:104: [32m[INFO][0m [trace_id=1687342333437299800-l7vieD] [Login Controller] end***  result:  res=登录失败,tokenStr=

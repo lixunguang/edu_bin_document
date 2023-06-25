@@ -1,0 +1,5 @@
+2023/06/13 10:13:22 admin_perm_service.go:52: [36m[DEBUG][0m eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY2MjYwMDIsImlzcyI6IjE2ODY2MjI0MDIifQ.TorPG1xoovtR6LeXxrShrYBkVFRzgd8mF4LbCzP_0YU,&{10000 %!d(string=ok)}
+2023/06/13 10:44:07 admin_perm_service.go:52: [36m[DEBUG][0m ,&{10005 %!d(string=用户不存在)}
+2023/06/13 10:45:01 admin_perm_service.go:52: [36m[DEBUG][0m ,&{10005 %!d(string=用户不存在)}
+2023/06/13 10:48:16 admin_perm_service.go:52: [36m[DEBUG][0m ,&{10005 %!d(string=用户不存在)}
+2023/06/13 10:48:24 admin_perm_service.go:52: [36m[DEBUG][0m eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJleHAiOjE2ODY2MjgxMDQsImlzcyI6IjE2ODY2MjQ1MDQifQ.pJepmnbKgEXVExV0NYEwzoUp_rxjgKRFK43pcFFCw8E,&{10000 %!d(string=ok)}
